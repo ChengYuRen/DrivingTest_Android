@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+            android:id="@+id/kemuyi_biguomiji"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            
+            android:background="@drawable/bj">
+	
+            <TextView
+                android:id="@+id/talker_My_logintoast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/fanhui_miji"
+                android:text="必过秘籍"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+                 <ImageView
+                    android:id="@+id/fanhui_miji"
+                    android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+                     />
+
+        </RelativeLayout>
+    
+    
+    <Button 
+        android:id="@+id/keyimiji_b1"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="新交规扣分标准"
+        android:background="@drawable/login_button_selector"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+    
+
+    <Button 
+        android:id="@+id/keyimiji_b2"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="交规巧记忆"
+        android:background="@drawable/kemuyi_button_bg"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+
+	<Button 
+        android:id="@+id/keyimiji_b3"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="八种交警手势信号口诀"
+        android:background="@drawable/login_button_selector"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+
+	<Button 
+        android:id="@+id/keyimiji_b4"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="处罚相关题巧记"
+        android:background="@drawable/kemuyi_button_bg"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+
+	<Button 
+        android:id="@+id/keyimiji_b5"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="罚款金额题巧记"
+        android:background="@drawable/login_button_selector"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+	
+    <Button 
+        android:id="@+id/keyimiji_b6"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="最低、最高时速题巧记"
+        android:background="@drawable/kemuyi_button_bg"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+    
+    <Button 
+        android:id="@+id/keyimiji_b7"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="安全距离题巧记"
+        android:background="@drawable/login_button_selector"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button 
+        android:id="@+id/keyimiji_b8"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="日期类题巧记"
+        android:background="@drawable/kemuyi_button_bg"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+
+     <Button 
+        android:id="@+id/keyimiji_b9"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="40dp"
+        android:text="易混淆知识"
+        android:background="@drawable/login_button_selector"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        />
+     
+</LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bitmap_book_read_chapterlist_repeat"
+    android:orientation="vertical" >
+    
+    
+    
+    <!-- 登录的BEGIN -->
+    <LinearLayout 
+        android:id="@+id/linearlayout_login_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_category_item_login"
+        >
+        
+    <ImageView 
+        android:id="@+id/imageview_denglu_mao"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/login_head"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        /> 
+    
+    <LinearLayout 
+         android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/denglu_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:layout_marginTop="20dp"
+        android:text="个人中心"
+        android:textSize="20sp" />
+  
+    <TextView 
+        android:id="@+id/denglu_textview_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15.0dip"
+        android:text="登录后可同步学习进度"
+        android:textColor="#ff959595"
+        />
+    </LinearLayout>
+    <!-- 向右的箭头 -->
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/account__arrow_right"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        />
+    </LinearLayout>
+     <!-- 登录的END -->
+    
+    
+    <!-- 题库layout -->
+    <LinearLayout
+        android:id="@+id/linearlaout_tiku"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_category_item"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:orientation="horizontal" >
+    
+        <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+        <TextView       
+        android:id="@+id/textview_tiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/jiakao_icon_grzx_tiku"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:text="我的题库"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+        
+        <TextView 
+            android:id="@+id/textview_xiaoche"
+        	android:layout_width="50dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="50dp"
+        	android:layout_marginTop="15dp"
+        	android:text="@string/xiaoche"
+        	android:textColor="#ff959595"
+        	android:textSize="14.5sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="7.7dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/account__arrow_right" />
+
+        </LinearLayout>
+        
+   		
+    </LinearLayout>
+    <!-- 题库END -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <!-- 驾校layout -->
+    <LinearLayout
+        android:id="@+id/linearlaout_jiaxiao"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_category_item"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:orientation="horizontal" >
+    
+        <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView       
+        android:id="@+id/textview_jiaxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/jiakao_icon_grzx_jiaxiao"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:text="我的驾校"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+        
+        <TextView 
+            android:id="@+id/textview_weibaokao"
+        	android:layout_width="72.5dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="25dp"
+        	android:layout_marginTop="15dp"
+        	android:text="不要点！！"
+        	android:textColor="#ff959595"
+        	android:textSize="14.5sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3.7dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/account__arrow_right" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 驾校END -->
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <!-- 驾校layout -->
+    <LinearLayout
+        android:id="@+id/linearlaout_guanyu"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_category_item"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:orientation="horizontal" >
+    
+        <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView       
+        android:id="@+id/textview_guanyu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/jiakao_icon_grzx_haopin"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:text="关于我们"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3.7dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/account__arrow_right" />
+       </LinearLayout>
+    </LinearLayout>
+    <!-- 驾校END -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+</LinearLayout>

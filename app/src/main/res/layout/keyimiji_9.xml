@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+<LinearLayout 
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+        <RelativeLayout
+            android:id="@+id/keyimiji_9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            
+            android:background="@drawable/bj">
+	
+            <TextView
+                android:id="@+id/talker_My_logintoast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/fanhui_b9"
+               
+                android:text="易混淆知识"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/fanhui_b9"
+                    android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+                     />
+
+        </RelativeLayout>
+	
+  	<TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_1"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_4"
+        />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_7"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_9"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_12"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_13"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_14"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_15"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_16"
+        />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_17"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_18"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_19"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_20"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_21"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_22"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_23"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_24"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_25"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_26"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_27"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_28"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_29"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_30"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_31"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_32"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_33"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_34"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_35"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_36"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_37"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_38"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_39"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_40"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_41"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_42"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_43"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_9_44"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_45"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_46"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    
+    <TextView  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_9_47"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@string/keyimiji_9_48"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@string/keyimiji_9_49"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@string/keyimiji_9_50"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@string/keyimiji_9_51"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        >
+    </TextView>
+    
+ </LinearLayout>
+
+</ScrollView>
+

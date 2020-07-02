@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<!-- 科目二科目三 -->
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+       <Button
+           android:id="@+id/buttonsubjectTwoThree"
+           android:layout_width="fill_parent"
+           android:layout_height="40dp"
+           android:background="@color/white"
+           android:text="科目二"
+           android:layout_weight="1"
+           />
+       
+      
+       <ImageView 
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:background="@drawable/jiakao_line_shu"
+           />
+        <Button
+           android:layout_marginLeft="1dp"
+           android:id="@+id/buttonsubjectThreeThree"
+           android:layout_width="fill_parent"
+           android:layout_height="40dp"
+           android:background="@drawable/abc_cab_background_top_holo_light"
+           android:text="科目三"
+           android:layout_weight="1"
+           />
+        
+   </LinearLayout>
+  
+    
+	<!--  android:gravity="center_vertical" 居左 -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+        <ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="3dp"
+          android:background="@drawable/ic_shelf_category_divider"
+          />
+	    <Button
+        android:id="@+id/buttonkaoguithree"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kemuer_button"
+        android:drawableLeft="@drawable/keersan_kaogui"
+        android:gravity="center_vertical"
+        android:text="科三考规"
+        android:textColor="#000000"
+        android:textSize="16sp" >
+
+  </Button>
+	    
+	</LinearLayout>
+    
+  <!--android:background 设置按钮按下时的变化  ok是一个心形图片  -->
+  <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">    
+    <ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="3dp"
+          android:background="@drawable/ic_shelf_category_divider"
+          />
+  	<Button  	
+      	android:id="@+id/buttonmijithree"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="1sp"        
+        android:background="@drawable/kemuer_button"
+        android:drawableLeft="@drawable/keersan_miji"
+        android:text="通关秘籍"
+        android:textColor="#000000"
+        android:textSize="16sp" >
+    </Button>
+     <ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="3dp"
+          android:background="@drawable/ic_shelf_category_divider"
+          />
+    </LinearLayout>
+    
+	<TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/selectSubjectThreeVideo"
+          android:textSize="15sp"
+     />
+	
+	<ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+        <LinearLayout 
+	     android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="vertical"
+	     >
+	
+	<!-- 视频查看 01-->
+ 	 <LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal"
+     	 >
+
+ 	     <Button
+ 	         android:id="@+id/button_shangchezhunbei"
+ 	         android:layout_width="fill_parent"
+ 	         android:layout_height="wrap_content"
+ 	         android:layout_marginLeft="1sp"
+ 	         android:layout_weight="1"
+ 	         android:background="@drawable/subject_two"
+ 	         android:drawableTop="@drawable/shangchezhunbei"
+ 	         android:text="上车准备" />
+
+       <Button 
+           android:layout_marginLeft="1sp"
+           android:id="@+id/buttonshang_yejiandengguang"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/monidengguang"
+          android:text="模拟夜间场景灯光使用"
+          />
+  </LinearLayout>
+ 
+  <!-- 03 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+
+      <Button
+          android:id="@+id/button_renxingdao"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/tongguorenxinghengdao"
+          android:text="通过人行横道"
+          android:textColor="#000000" />
+
+      <Button
+          android:id="@+id/button_qibu"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="1sp"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/qibu"
+          android:text="起步" />
+
+  </LinearLayout>
+  
+  <!-- 04 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_xuexiao"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/tongguoxuexiao"
+ 	       android:text="通过学校区域"
+ 	       android:textColor="#000000" />
+
+       <Button 
+           android:layout_marginLeft="1sp"
+          android:id="@+id/button_zhixian" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/zhixianxingshi"
+          android:text="直线行驶"
+          />
+  </LinearLayout>
+  <!-- 05 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_gonggongqiche"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/gonggongqichezhan"
+ 	       android:text="通过公共汽车站"
+ 	       android:textColor="#000000" />
+
+       <Button 
+           android:layout_marginLeft="1sp"
+          android:id="@+id/button_jiajiansu" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/jiajiandang"
+          android:text="加减档操作"
+          />
+  </LinearLayout>
+  <!-- 06 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_huiche"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/huiche"
+ 	       android:text="会车"
+ 	       android:textColor="#000000" />
+
+       <Button 
+           android:layout_marginLeft="1sp"
+          android:id="@+id/button_biangengchedao" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/biangengchedao"
+          android:text="变更车道"
+          />
+  </LinearLayout>
+  <!-- 07 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_chaoche"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/chaoche"
+ 	       android:text="超车"
+ 	       android:textColor="#000000" />
+      <Button 
+           android:layout_marginLeft="1sp"
+          android:id="@+id/button_kaobiantingche" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/kaobiantingche"
+          android:text="靠边停车"
+          />
+
+  </LinearLayout>
+ 
+  <!-- 09 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_yejianxingshi"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/yejianxingshi"
+ 	       android:text="夜间行驶"
+ 	       android:textColor="#000000" />
+      
+      <Button 
+           android:layout_marginLeft="1sp"
+           android:id="@+id/buttonzhaiLuDiaoTou"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/zhailudiaotou"
+          android:text="@string/zhaiLuDiaoTou"
+          />
+
+       
+  </LinearLayout>
+ 
+  </LinearLayout>
+   </ScrollView>
+</LinearLayout>
+
+
+</ScrollView>

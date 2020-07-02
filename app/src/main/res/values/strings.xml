@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">驾考宝典</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+   
+    <!-- 登录界面 -->
+    <string name="login_label_username">帐号</string>  
+    <string name="login_label_password">密码</string>  
+    <string name="login_label_signin">登 录</string>  
+    <string name="login_status_logging_in">登录中...</string>  
+     <string name="login_username_hint">帐号长度为6-16位</string>  
+    <string name="login_register_link">新用户注册</string>  
+    <string name="login_register_mibao">找回密码</string>  
+    
+    <!-- 注册界面 -->
+    <string name="login_label_signin_zhaohao">帐号长度6-16位</string>
+    <string name="login_label_signin_mima">密码长度6-16位</string>
+    <string name="login_label_signin_anquanma">找回密码的唯一凭证</string>  
+    
+    <string name="xiaoche">小车</string>
+    
+	<!-- 科目一 button变颜色 -->
+    <drawable name="clr_normal_subject">#ffffff</drawable>
+ 	<drawable name="clr_pressed_subject">#ffebcd</drawable>
+ 	
+ 	<drawable name="login_clr_normal">#F8F8FF</drawable>
+ 	<drawable name="login_clr_pressed">#F0FFFF</drawable>
+ 	
+ 	
+ 	
+ 	<!-- 选择城市 -->
+ 	<drawable name="clr_normal">#FFC125</drawable>
+ 	<drawable name="clr_pressed">#FFFFFF</drawable>
+ 	<string name="setTiKu">设置题库</string>
+	<string name="learenCar">学车第一步，请选择题库</string>
+	<string name="updateDate">已更新至：2016-02-19</string>
+	<string name="subjectSum">科目一共12123道，科目四共123道</string>
+	<string name="selectTiKu">请选择题库</string>
+	<string name="carIsOk">完成</string>
+	<string name="dingWei">定位城市</string>
+	<string name="weiZhi">您的位置为：</string>
+	<string name="diWeiShiBai">定位失败，请手动选择</string>
+	<string name="diWeiZhong">定位中，请稍后</string>
+	<string name="xuanZeJiaXiao">选择唐山市驾校</string>
+ 	
+ 	<string name="keyikaogui_1">简介</string>
+ 	<string name="keyikaogui_2">科目一，又称科目一理论考试、驾驶员理论考试，是机动车驾驶证考核的一部分。
+ 	    根据《机动车驾驶证申领和使用规定》，考试内容包括驾车理论基础、道路安全法律法规、地方性法规等相关知识。
+ 	    考试形式为上机考试，100道题，90分及以上过关。</string>
+ 	<string name="keyikaogui_3">阶段目标</string>
+ 	<string name="keyikaogui_4">了解机动车基本知识，掌握道路交通安全法律、法规及道路交通信号的规定。</string>
+ 	<string name="keyikaogui_5">考试题库</string>
+ 	<string name="keyikaogui_6">考试题库为全国统一版本，不存在地方题的说法。小车共计1229题。</string>
+ 	<string name="keyikaogui_7">考试规则</string>
+ 	<string name="keyikaogui_8">考试主要考核道路交通安全法律法规、交通信号、通行规则等最基本的知识。由考生通过计算机闭卷答题，
+ 	    时间为45分钟，试题100道题，题目由计算机考试系统从考试题库中随机抽取生成，题型为判断题和单选题，满分100分，
+ 	    90分合格。不合格可以当场补考一次，如仍旧不合格，只能再次预约考试时间（科目一没有补考次数限制）。</string>
+ 	<string name="keyikaogui_9">科目一考试合格后，车管所应当在三日内核发《驾驶技能准考证明》，有效期为三年，学员要在有效期内完成科目二和科目三考试。</string>
+ 	<string name="keyikaogui_10">考试流程</string>
+ 	<string name="keyikaogui_11">参加交规考试，考生必须携带身份证或《居住证》等有效证件，以证明考生身份，
+ 	    然后按照考试规定进入考场。进入考场后，下面的操作步骤大家要注意了：</string>
+ 	<string name="keyikaogui_12">(1) 核对座位上的姓名、身份证、考试类型与自己是否相符，有不符的请向考试员提出。</string>
+ 	<string name="keyikaogui_13">(2) 敲“确定”键等待数秒，系统给出考题后，再开始答题。(答题时间为45分钟， 屏幕上有时间提示)</string>
+ 	<string name="keyikaogui_14">(3) 考题分为选择题和判断题两类。选择题为三个答案中，选一个正确答案，如考生认为答案一对，则敲1键;认为答案二对，
+ 	    则敲2键;认为答案三对，则敲3键，选完答案后再敲 “确认”键，进入下一题。判断题分为“正确”和“错”两项，考生认为该题正确则选1键，认为错了则选2键，
+ 	    选完答案后再敲“确认”键进入下一题。注：考生只能敲1、2、3、修改、确定这五个键。其他打√键为无用键，打×键考生不能敲，否则退出考试。 </string>
+ 	<string name="keyikaogui_15">(4) 考生如发现前面考题答案选错需修改时，敲“修改”键退到要修改的那一题进行修改。然后从这题开始依次重做。</string>
+ 	<string name="keyikaogui_16">(5) 考题共100题，做完100题后，系统自动给出考试成绩。</string>
+ 	<string name="keyikaogui_17">(6) 考试时间共45分钟，如果45分钟内考生没做完100题，系统将自动结束本次考试，并给出分数。</string>
+ 	<string name="keyikaogui_18">如果交规考试不及格者，请到车管所交费后参加补考。</string>
+ 	
+ 	
+ 	<!-- 科一  科一秘籍 -->
+ 	<string name="keyimiji_1_1">一次扣12分</string>
+ 	<string name="keyimiji_1_2">(1) 驾驶与准驾车型不符的机动车的；</string>
+ 	<string name="keyimiji_1_3">(2) 驾驶营运客车（不包括公共汽车）、校车载人超过核定人数20％以上的；</string>
+ 	<string name="keyimiji_1_4">(3) 造成交通事故后逃逸，尚不构成犯罪的；</string>
+ 	<string name="keyimiji_1_5">(4) 饮酒后驾驶机动车的；</string>
+ 	<string name="keyimiji_1_6">(5) 上道路行驶的机动车未悬挂机动车号牌的，或者故意遮挡、污损、不按规定安装机动车号牌的；</string>
+ 	<string name="keyimiji_1_7">(6) 使用伪造、变造的机动车号牌、行驶证、驾驶证、校车标牌或者使用其他机动车号牌、行驶证的；</string>
+ 	<string name="keyimiji_1_8">(7) 驾驶机动车在高速公路上倒车、逆行、穿越中央分隔带调头的；</string>
+ 	<string name="keyimiji_1_9">(8) 驾驶营运客车在高速公路车道内停车的；</string>
+ 	<string name="keyimiji_1_10">(9) 驾驶中型以上载客载货汽车、校车、危险物品运输车辆在高速公路、城市快速路上行驶超过规定时速
+ 	    20％以上或者在高速公路、城市快速路以外的道路上行驶超过规定时速50％以上，以及驾驶其他机动车行驶超过规定时速50%以上的；</string>
+ 	<string name="keyimiji_1_11">(10) 连续驾驶中型以上载客汽车、危险物品运输车辆超过4小时未停车休息或者停车休息时间少于20分钟的；</string>
+ 	<string name="keyimiji_1_12">(11) 未取得校车驾驶资格驾驶校车的。</string>
+ 	<string name="keyimiji_1_13">一次扣6分</string>
+ 	<string name="keyimiji_1_14">(1) 机动车驾驶证被暂扣期间驾驶机动车的；</string>
+ 	<string name="keyimiji_1_15">(2) 驾驶机动车违反道路交通信号灯通行的；</string>
+ 	<string name="keyimiji_1_16">(3) 驾驶营运客车（不包括公共汽车）、校车载人超过核定人数未达20％的，或者驾驶其他载客汽车载人超过核定人数20％以上的；</string>
+ 	<string name="keyimiji_1_17">(4) 驾驶中型以上载客载货汽车、校车、危险物品运输车辆在高速公路、城市快速路上行驶超过规定时速未达20％的；</string>
+	<string name="keyimiji_1_18">(5) 驾驶中型以上载客载货汽车、校车、危险物品运输车辆在高速公路、城市快速路以外的道路上行驶或者驾驶其他机动车行驶超过规定时速20％以上未达到50％的；</string>
+ 	<string name="keyimiji_1_19">(6) 驾驶货车载物超过核定载质量30%以上或者违反规定载客的；</string>
+ 	<string name="keyimiji_1_20">(7) 驾驶营运客车以外的机动车在高速公路车道内停车的；</string>
+ 	<string name="keyimiji_1_21">(8) 驾驶机动车在高速公路或者城市快速路上违法占用应急车道行驶的；</string>
+ 	<string name="keyimiji_1_22">(9) 低能见度气象条件下，驾驶机动车在高速公路上不按规定行驶的；</string>
+ 	<string name="keyimiji_1_23">(10) 驾驶机动车运载超限的不可解体的物品，未按指定的时间、路线、速度行驶或者未悬挂明显标志的；</string>
+ 	<string name="keyimiji_1_24">(11) 驾驶机动车载运爆炸物品、易燃易爆化学物品以及剧毒、放射性等危险物品，未按指定的时间、路线、速度行驶或者未悬挂警示标志并采取必要的安全措施的；</string>
+ 	<string name="keyimiji_1_25">(12) 以隐瞒、欺骗手段补领机动车驾驶证的；</string>
+ 	<string name="keyimiji_1_26">(13) 连续驾驶中型以上载客汽车、危险物品运输车辆以外的机动车超过4小时未停车休息或者停车休息时间少于20分钟的；；</string>
+ 	<string name="keyimiji_1_27">(14) 以隐瞒、欺骗手段补领机动车驾驶证的；</string>
+ 	<string name="keyimiji_1_28">一次扣3分</string>
+ 	<string name="keyimiji_1_29">(1) 驾驶营运客车（不包括公共汽车）、校车以外的载客汽车载人超过核定人数未达20%的；</string>
+ 	<string name="keyimiji_1_30">(2) 驾驶中型以上载客载货汽车、危险物品运输车辆在高速公路、城市快速路以外的道路上行驶或者驾驶其他机动车行驶超过规定时速未达20%的；</string>
+ 	<string name="keyimiji_1_31">(3) 驾驶货车载物超过核定载质量未达30%的；</string>
+ 	<string name="keyimiji_1_32">(4) 驾驶机动车在高速公路上行驶低于规定最低时速的；</string>
+ 	<string name="keyimiji_1_33">(5) 驾驶货车载物超过核定载质量未达30%的；</string>
+ 	<string name="keyimiji_1_34">(6) 驾驶机动车在高速公路或者城市快速路上不按规定车道行驶的；</string>
+ 	<string name="keyimiji_1_35">(7) 驾驶机动车行经人行横道，不按规定减速、停车、避让行人的；</string>
+ 	<string name="keyimiji_1_36">(8) 驾驶机动车违反禁令标志、禁止 标线指示的；</string>
+ 	<string name="keyimiji_1_37">(9) 驾驶机动车不按规定超车、让行的，或者逆向行驶的；</string>
+ 	<string name="keyimiji_1_38">(10) 驾驶机动车违反规定牵引挂车的；</string>
+ 	<string name="keyimiji_1_39">(11) 在道路上车辆发生故障、事故停车后，不按规定使用灯光和设置警告标志的；</string>
+ 	<string name="keyimiji_1_40">(12) 上道路行驶的机动车未按规定定期进行安全技术检验的。</string>
+ 	
+ 	<string name="keyimiji_1_41">一次扣2分</string>
+ 	<string name="keyimiji_1_42">(1) 驾驶机动车行经交叉路口不按规定行车或者停车的；</string>
+ 	<string name="keyimiji_1_43">(2) 驾驶机动车有拨打、接听手持电话等妨碍安全驾驶的行为的；</string>
+ 	<string name="keyimiji_1_44">(3) 驾驶二轮摩托车，不戴安全头盔的；</string>
+ 	<string name="keyimiji_1_45">(4) 驾驶机动车在高速公路或者城市快速路上行驶时，驾驶人未按规定系安全带的；</string>
+ 	<string name="keyimiji_1_46">(5) 驾驶机动车遇前方机动车停车排队或者缓慢行驶时，借道超车或者占用对面车道、穿插等候车辆的；</string>
+ 	<string name="keyimiji_1_47">(6) 不按照规定为校车配备安全设备，或者不按照规定对校车进行安全维护的；</string>
+ 	<string name="keyimiji_1_48">(7) 驾驶校车运载学生，不按照规定放置校车标牌、开启校车标志灯，或者不按照经审核确定的线路行驶的；</string>
+ 	<string name="keyimiji_1_49">(8) 校车上下学生，不按照规定在校车停靠站点停靠的；</string>
+ 	<string name="keyimiji_1_50">(9) 校车未运载学生上道路行驶，使用校车标牌、校车标志灯和停车指示标志的；</string>
+ 	<string name="keyimiji_1_51">(10) 驾驶校车上道路行驶前，未对校车车况是否符合安全技术要求进行检查，或者驾驶存在安全隐患的校车上道路行驶的；</string>
+ 	<string name="keyimiji_1_52">(11) 在校车载有学生时给车辆加油，或者在校车发动机引擎熄灭前离开驾驶座位的。</string>
+ 	
+ 	<string name="keyimiji_1_53">一次扣1分</string>
+ 	<string name="keyimiji_1_54">(1) 驾驶机动车不按规定使用灯光的；</string>
+ 	<string name="keyimiji_1_55">(2) 驾驶机动车不按规定会车的；</string>
+ 	<string name="keyimiji_1_56">(3) 驾驶机动车载货长度、宽度、高度超过规定的；</string>
+ 	<string name="keyimiji_1_57">(4) 上道路行驶的机动车未放置检验合格标志、保险标志，未随车携带行驶证、机动车驾驶证的。</string>
+ 	
+ 	
+ 	<string name="keyimiji_2_1">(1) 答题中所有题一个原则——安全，因此怎么做安全就怎么做。</string>
+ 	<string name="keyimiji_2_2">(2) 判断题中遇到紧急情况所有过激行为都错，比如急踩（用力踏）油门（制动），急转方向，选择题中类似的答案都错。</string>
+ 	<string name="keyimiji_2_3">(3) 能让行的都让行，能帮助的都帮助，能避让就避让，只要不抢、不急都对。</string>
+ 	<string name="keyimiji_2_4">(4) 抢救伤员一个原则先救人，救人一个原则先止血。</string>
+ 	<string name="keyimiji_2_5">(5) 无标志无灯无警路口，按照让右路——让左转——让直行的顺序判断。</string>
+ 	<string name="keyimiji_2_6">(6) 车辆变换位置都要开转向灯，唯一一个不开的就是进环岛（转盘）。</string>
+ 	<string name="keyimiji_2_7">(7) 红色是禁令、黄色是警告、蓝色是指示，三种颜色都没有是辅助。</string>
+ 	<string name="keyimiji_2_8">(8) 禁令对禁止、警告对警告、指示对指示，相同就对，不相同就错。</string>
+ 	<string name="keyimiji_2_9">(9) 黄灯亮与黄灯闪烁只一字之差。“闪烁”确保安全，“亮”不准通行，但越线的可通行。</string>
+ 	<string name="keyimiji_2_10">(10) 远光灯、近光灯的考题只能使用近光灯，不准使用远光灯。</string>
+ 	<string name="keyimiji_2_11">(11) 只有冰雪道路是下坡先行，其余都是上坡先行；如果出现两个上坡先行，就选字多的。</string>
+ 	<string name="keyimiji_2_12">(12) 有省选省，无省选县。</string>
+ 	<string name="keyimiji_2_13">(13) 户籍地对户籍地，暂住地对暂住地。</string>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	<string name="keyimiji_3_1">(1) 停止信号：左臂由前向上直伸，掌心向前；</string>
+ 	<string name="keyimiji_3_2">(2) 直行信号：两手平伸右手摆；</string>
+ 	<string name="keyimiji_3_3">(3) 左转弯信号：右臂向前平伸，左手向右摆动；</string>
+ 	<string name="keyimiji_3_4">(4) 右转弯信号：左臂向前平伸，右手向左摆动；</string>
+ 	<string name="keyimiji_3_5">(5) 左转弯待转信号：左臂向左平伸成45度，上下摆动；</string>
+ 	<string name="keyimiji_3_6">(6) 变道信号：右臂向前平伸，掌心向左，右臂向左水平摆动；</string>
+ 	<string name="keyimiji_3_7">(7) 减速慢行信号：右臂向右前方平伸，掌心向下，平直向下摆动；</string>
+ 	<string name="keyimiji_3_8">(8) 示意车辆靠边停车信号：左臂由前向上直伸，掌心向前，右臂向前摆动。</string>
+ 	
+ 	
+ 	
+ 	<string name="keyimiji_4_1">(1) 扣留机动车：未悬挂车牌、检验合格标志、保险标志；未携带行驶证、伪造相关证件或使用其他车辆证件；在一个计分周期达到12分。</string>
+ 	<string name="keyimiji_4_2">(2) 收缴号费：伪造或假冒车牌号。</string>
+ 	<string name="keyimiji_4_3">(3) 警告：不按规定挂号牌。</string>
+ 	<string name="keyimiji_4_4">(4) 拘留15天：未有有效驾驶证（被吊销、被暂扣等）、造成交通事故后逃逸但不构成犯罪（逃逸吊销，终身不能重新取得）。</string>
+ 	<string name="keyimiji_4_5">(5) 吊销：将车给没有驾驶资格的人、超速50%、非法改装车辆、报废、无正当理由逾期不接受处理。</string>
+ 	<string name="keyimiji_4_6">(6) 有期徒刑：犯交通肇事罪的，处3年以下有期徒刑或者拘役；因交通事故逃逸致人死亡的，处7年以上15年以下。</string>
+ 	
+ 	
+ 	<string name="keyimiji_5_1">(1) 120—200元：违规停车不在现场的；违规停车在现场但拒绝驶离的；未放置保险标志的。</string>
+ 	<string name="keyimiji_5_2">(2) 2200—500元：客运车辆超员，但没超过20％的；饮酒后驾驶机动车的；货运车辆超过核定载质量的，但没超过30％的。</string>
+ 	<string name="keyimiji_5_3">(3) 3200—2000元：在道路两侧种植或设置妨碍安全视线的；非法警报器、标志灯具的；未取得驾驶证驾驶机动车的；驾驶证暂
+ 	    扣期间驾驶机动车的；无证驾驶机动车的；将机动车交由无驾驶证的人驾驶的；将机动车交由驾驶证被吊销、暂扣的人驾驶的；造成交通事故后逃逸，但不构成犯罪的；违反交通管
+ 	    制的；故意损毁、移动、涂改交通设施造成危害后果，但不构成犯罪的；机动车行使超过规定时速50%的；非法拦截、扣留机动车辆，造成交通严重阻塞或财产损失的；伪造、变造
+ 	    机动车登记证书、号牌、行驶证、检验合格证、保险标志、驾驶证的。</string>
+ 	<string name="keyimiji_5_4">(4) 4500—2000元：醉酒后驾驶机动车的；客运车辆超员20％以上，或违反规定载货；货运车辆超过核定载质量30%或者违反载客。</string>
+ 	
+ 	
+ 	
+ 	<string name="keyimiji_6_1">普通公路</string>
+ 	<string name="keyimiji_6_2">(1) 在没有限速标志、标线的道路情况下的最高时速:没有道路中心线的城市道路为30公里，
+ 	    公路为40公里；同方向只有一条机动车道的城市道路为50公里，公路为70公里。</string>
+ 	<string name="keyimiji_6_3">(2) 遇雾、雨、雪、沙尘、冰雹，能见度在50米以内时，最高时速30公里。</string>
+ 	<string name="keyimiji_6_4">(3) 调头、转弯、下陡坡时，最高时速30公里。</string>
+ 	<string name="keyimiji_6_5">(4) 在冰雪、泥泞的道理上行使时，最高时速30公里。</string>
+ 	<string name="keyimiji_6_6">(5) 牵引发生故障的机动车时，最高时速30公里。</string>
+ 	<string name="keyimiji_6_7">(6) 进出非机动车道，通过铁路道口、急转弯、窄路、窄桥时，最高时速30公里。</string>
+ 	<string name="keyimiji_6_8">高速公路</string>
+ 	<string name="keyimiji_6_9">(1) 正常行驶，最低时速60公里，最高时速120公里。</string>
+ 	<string name="keyimiji_6_10">(2) 当同前车保持100米安全距离时，最高时速100公里。</string>
+ 	<string name="keyimiji_6_11">(3) 同向2车道的最低时速为：左侧车道100公里。</string>
+ 	<string name="keyimiji_6_12">(4) 同向3车道的最低时速为：左侧车道110公里；中间车道90公里；右侧车道60公里。</string>
+ 	<string name="keyimiji_6_13">(5) 能见度小于50米，在开启雾灯、近光灯、示廓灯、前后位灯、危险报警闪光灯时，最高车速20公里，并从最近的出口尽快驶离高速公里。</string>
+ 	<string name="keyimiji_6_14">(6) 能见度小于100米，在开启雾灯、近光灯、示廓灯、前后位灯、危险报警闪光灯时，最高车速40公里，与同车道前车保持50米以上的距离。</string>
+ 	<string name="keyimiji_6_15">(7) 能见度小于200米，在开启雾灯、近光灯、示廓灯、前后位灯，最高车速60公里，与同车道前车保持100米以上的距离。</string>
+ 	
+ 	
+ 	<string name="keyimiji_7_1">普通公路</string>
+ 	<string name="keyimiji_7_2">(1) 白天或夜间在公路上发生故障时，设警告标志位置为车后50～100米处。</string>
+ 	<string name="keyimiji_7_3">(2) 使用软连接牵引装置时，两车之间的距离大于4米小于10米。</string>
+ 	<string name="keyimiji_7_4">(3) 夜间会车时，在距离150米以外改用近光灯。</string>
+ 	<string name="keyimiji_7_5">(4) 在交叉路口、急弯路、窄桥、桥梁、陡坡、铁道路口、隧道，50米以内不得停车。</string>
+ 	<string name="keyimiji_7_6">(5) 在公交汽车站、急救站、加油站、消除队（站），30米以内不得停车。</string>
+ 	<string name="keyimiji_7_7">高速公路</string>
+ 	<string name="keyimiji_7_8">(1) 高速公路上发生故障时，设警告标志位置为车后150米以外。</string>
+ 	<string name="keyimiji_7_9">(2) 时速超过100公里时，需保持100米以上的安全距离。</string>
+ 	<string name="keyimiji_7_10">(3) 时速低于100公里时，需保持50米以上的安全距离。</string>
+ 	<string name="keyimiji_7_11">(4) 车速为100公里时，最小横向间距为1.5米；安全距离为100米；危险车间距为50米。</string>
+ 	<string name="keyimiji_7_12">(5) 驶离高速公路最佳时机，离出口500米处。</string>
+ 	
+ 	
+ 	<string name="keyimiji_8_1">(1) 事故后逃逸，不构成犯罪，并处15日以下拘留。</string>
+ 	<string name="keyimiji_8_2">(2) 小型车非营运从注册登记之日起，6年以内每2年检验1次。</string>
+ 	<string name="keyimiji_8_3">(3) 小型车非营运从注册登记之日起，超过6年不满15年的，每1年检验一次。</string>
+ 	<string name="keyimiji_8_4">(4) 初次申领驾驶证后的12个月为实习期。</string>
+ 	<string name="keyimiji_8_5">(5) 机动车驾驶证有效期分为6年、10年和长期。</string>
+ 	<string name="keyimiji_8_6">(6) 道路交通安全违法行为累积记分周期为12个月。</string>
+ 	<string name="keyimiji_8_7">(7) 驾驶人不得连续驾驶超过4小时未停车休息。</string>
+ 	<string name="keyimiji_8_8">(8) 驾驶人连续驾车超过4小时，停车休息时间不得少于20分钟。</string>
+ 	<string name="keyimiji_8_9">(9) 以不正当手段取得机动车登记或者驾驶许可的，撤销，申请人3年内不得再申请。</string>
+ 	<string name="keyimiji_8_10">(10) 被扣留的机动车30日内不接受处理，公告3个月仍不接受处理的，依法拍卖。</string>
+ 	<string name="keyimiji_8_11">(11) 机动车驾驶人发生重大事故构成犯罪的，处3年以下有期徒刑。</string>
+ 	<string name="keyimiji_8_12">(12) 机动车驾驶人逃逸，处3年以上7年以下有期徒刑。</string>
+ 	<string name="keyimiji_8_13">(13) 公安交警需要调查核实机动车来历证明的，30日内不来接受处理，不受扣留机动车时间限制。</string>
+ 	<string name="keyimiji_8_14">(14) 当事人未在事故现场报警，事后请求处理的，应当在提出请求后10日内提供证据。</string>
+ 	<string name="keyimiji_8_15">(15) 请求交警部门调解损害赔偿的，可以在收到事故认定书之日起10日内提出书面申请。</string>
+ 	<string name="keyimiji_8_16">(16) 调解参加人因故不能按期参加调解的，应提前24小时通知交警，请求变更时间。</string>
+ 	<string name="keyimiji_8_17">(17) 吊销驾驶证未满2年的不得申请驾驶证。</string>
+ 	<string name="keyimiji_8_18">(18) 撤销驾驶许可未满3年的不得申请驾驶证。</string>
+ 	<string name="keyimiji_8_19">(19) 小型申请增加大型货车准驾车型的，应当在申请前最近1个周期内没有满分记录。</string>
+ 	<string name="keyimiji_8_20">(20) 申请机动车驾驶证考试，每个科目考试1次，可以补考1次。</string>
+ 	<string name="keyimiji_8_21">(21) 应当于驾驶证有效期满90日内，向核发地申请换证。</string>
+ 	<string name="keyimiji_8_22">(22) 超过驾驶证有效期1年以上未换证的，应当注销其驾驶证。</string>
+ 	<string name="keyimiji_8_23">(23) 一个周期内记分达到12分的，应当接受为期七日的教育。</string>
+ 	<string name="keyimiji_8_24">(24) 年龄在60周岁以上，应当每1年提交一次身体检查。</string>
+ 	<string name="keyimiji_8_25">(25) 年龄在60周岁以上的，在记分周期结束后15天内，提交身体条件的证明。（各地实际执行时间情况不统一。）</string>
+ 	<string name="keyimiji_8_26">(26) 驾驶证记载的信息发生变化的，应当在30日内申请换证。</string>
+ 	<string name="keyimiji_8_27">(27) 机动车交通事故责任强制保险的保险期间为1年。</string>
+ 	<string name="keyimiji_8_28">(28) 一年内有醉酒的行为，被处罚两次以上的，吊销驾驶证，5年内不准驾驶营运机动车。</string>
+ 	<string name="keyimiji_8_29">(29) 大型、中型非营运机动车从注册登记之日起，10年内每年检验1次。</string>
+ 	<string name="keyimiji_8_30">(30) 大型、中型非营运机动车从注册登记之日起，超过10年的，每6个月检验1次。</string>
+ 	<string name="keyimiji_8_31">(31) 载客汽车从注册登记之日起，5年内每年检验1次。</string>
+ 	<string name="keyimiji_8_32">(32) 载客汽车从注册登记之日起，超过5年的，每6个月检验1次。</string>
+ 	<string name="keyimiji_8_33">(33) 申请增加大型客车准驾车型的，应当取得中型客车或者大型货车资格5年以上。</string>
+ 	<string name="keyimiji_8_34">(34) 取得驾驶牵引车准驾车型资格2年以上，可以申请增加大型客车。 </string>
+ 	<string name="keyimiji_8_35">(35) 申请增加大型客车准驾车型的，应当在申请前最近连续3个记分周期内没有满分记录。</string>
+ 	<string name="keyimiji_8_36">(36) 持有大客、公交、中客驾驶证的，在1个记分周期结束后，1年内未提交体检证明的，注销驾驶证。</string>
+ 	<string name="keyimiji_8_37">(37) 载货汽车从注册登记之日起，10年以内每年检验1次。</string>
+ 	<string name="keyimiji_8_38">(38) 载货汽车从注册登记之日起，超过10年的，每6个月检验1次。</string>
+ 	<string name="keyimiji_8_39">(39) 载货汽车从注册登记之日起，超过10年的，每年检验2次。</string>
+ 	<string name="keyimiji_8_40">(40)年龄在60周岁以上或者持有牵引车、大货驾驶证的，在1个记分周期结束后，1年内未提交体检证明，注销驾驶证。</string>
+ 	
+ 	
+ 	<string name="keyimiji_9_1">实习驾驶员</string>
+ 	<string name="keyimiji_9_2">(1) 可以：按考试车型单独驾驶，可以上高速公路。实习期间须悬挂实习示意牌。</string>
+ 	<string name="keyimiji_9_3">(2) 不准：牵引车辆；驾驶特种和危险品车辆；单独驾驶大客车和挂车。</string>
+ 	<string name="keyimiji_9_4">鸣喇叭</string>
+ 	<string name="keyimiji_9_5">(1) 可以：鸣三次，鸣半秒钟。行车中遇到畜力车时，尽量少鸣喇叭。</string>
+ 	<string name="keyimiji_9_6">(2) 不准：郊外高音喇叭禁止，晚上23时到凌晨5时禁止。当经过不允许鸣喇叭的路段时，
+ 	    注意安全，禁止鸣喇叭。行进没有禁止鸣喇叭路段时，驾驶人应该尽可能少鸣喇叭。</string>
+ 	<string name="keyimiji_9_7">灯光</string>
+ 	<string name="keyimiji_9_8">(1) 左转向灯：向左转弯、向左变道、起步、驶离停车地点、调头时。</string>
+ 	<string name="keyimiji_9_9">(2) 右转向灯：向右转弯、向右变道、靠边停车时。</string>
+ 	<string name="keyimiji_9_10">(3) 夜间行车路灯照明良好开近光灯。</string>
+ 	<string name="keyimiji_9_11">(4) 夜间无路灯照明时间时开远光灯。</string>
+ 	<string name="keyimiji_9_12">(5) 雾天形式时开雾灯和报警闪光灯。</string>
+ 	<string name="keyimiji_9_13">(6) 进入环形路口不要开转向灯光，出环形路口时开右转向灯。</string>
+ 	<string name="keyimiji_9_14">(7) 夜间需要超车时应变换远近光灯。</string>
+ 	<string name="keyimiji_9_15">(8) 夜间临时停车时开示廓灯，后尾灯。</string>
+ 	<string name="keyimiji_9_16">让车</string>
+ 	<string name="keyimiji_9_17">(1) 机动车于非机动车在窄桥上会车减速靠右通过。</string>
+ 	<string name="keyimiji_9_18">(2) 右转弯让左转弯的车先。</string>
+ 	<string name="keyimiji_9_19">(3) 下坡车让上坡车。</string>
+ 	<string name="keyimiji_9_20">(4) 非公交车让公交车先。</string>
+ 	<string name="keyimiji_9_21">(5) 环型路口进口让出口。</string>
+ 	<string name="keyimiji_9_22">(6) 有障碍让无障碍。</string>
+ 	<string name="keyimiji_9_23">(7) 有让路条件让无路条件。</string>
+ 	<string name="keyimiji_9_24">未划分标线车道</string>
+ 	<string name="keyimiji_9_25">(1) 机动车在中间行驶。</string>
+ 	<string name="keyimiji_9_26">(2) 路幅宽度14米以上非机动车两边3.5米。</string>
+ 	<string name="keyimiji_9_27">(3) 314—10米机动车中间7米。</string>
+ 	<string name="keyimiji_9_28">(4) 410—6米非机动车两边1.5米。</string>
+ 	<string name="keyimiji_9_29">(5) 小于6米的机动车和非机动车靠右顺序行驶。</string>
+ 	<string name="keyimiji_9_30">支干路区分</string>
+ 	<string name="keyimiji_9_31">(1) 干路：国道，多车道，划车道分界线，通公交车道。</string>
+ 	<string name="keyimiji_9_32">车道</string>
+ 	<string name="keyimiji_9_33">(1) 三条车道：第一条为超车道，专供超车用。第二条为小型车道，专供小型客车。第三条为大型车道：专供其他车辆通行。</string>
+ 	<string name="keyimiji_9_34">(2) 高架：第一条为快车道，车速为70—80。第二条为慢车道，车速为50—80，低于70公里改在慢速车道上行驶。</string>
+ 	<string name="keyimiji_9_35">(3) 高速公路：第一条 为超车道，第二条为行车道，第三条为紧急停车带。机动车在高速公路上行驶，最低时速为60公里。
+ 	    设计最低为70公里。高速公路上二车之间安全车距离为100米。</string>
+ 	<string name="keyimiji_9_36">交通标线</string>
+ 	<string name="keyimiji_9_37">(1) 中心虚线：可以跨线超车或转弯。</string>
+ 	<string name="keyimiji_9_38">(2) 中心单实线：（黄色）不准压线行驶。</string>
+ 	<string name="keyimiji_9_39">(3) 中心虚实线：（黄色）禁止实线侧越线超车或向左转弯。</string>
+ 	<string name="keyimiji_9_40">(4) 中心双实线：（黄色）严格禁止车辆跨线超车或压线行驶。</string>
+ 	<string name="keyimiji_9_41">(5) 停车线：与中心线相垂直的条白色实线。</string>
+ 	<string name="keyimiji_9_42">(6) 东道分界线：（白色）分隔同向行驶的车辆。</string>
+ 	<string name="keyimiji_9_43">(7) 中心圈：区分车辆大小转弯，从中心圈左侧左转弯，不可压线。</string>
+ 	<string name="keyimiji_9_44">驾驶人规定</string>
+ 	<string name="keyimiji_9_45">(1) 实习驾驶人：正式驾驶证的第一年。</string>
+ 	<string name="keyimiji_9_46">(2) 机动车驾驶证有效期为：6年10年或长期。</string>
+ 	<string name="keyimiji_9_47">(3) 调换驾驶证的时间为90天。</string>
+ 	<string name="keyimiji_9_48">(4) 超过一年没有换证的注销机动车驾驶证。</string>
+ 	<string name="keyimiji_9_49">(5) 驾驶证遗失，补发驾驶证的时间为3天。</string>
+ 	<string name="keyimiji_9_50">(6) 申请中型客车，大型货车，城市公交车等，身高为155厘米，眼睛视力5.0以上，年龄在21—50周岁。</string>
+ 	<string name="keyimiji_9_51">(7) 学小型汽车，轻便摩托车年龄为18—70岁，学二轮摩托车年龄为18—60岁。</string>
+ 	
+ 	<!-- 科四考规-->
+ 	<string name="kesikaogui_1">简介</string>
+ 	<string name="kesikaogui_2">科目四，又称科目四理论考试、驾驶员理论考试，是机动车驾驶证考核的一部分。
+ 	    公安部123号令实施后，科目三考试分为两项内容，除了路考，增加了安全文明驾驶考试，俗称“科目四”，考量“车德”。因为这个考试在科目三之后进行，
+ 	    所以大家都习惯称之为科目四考试。实际的官方说法中没有科目四一说。</string>
+ 	<string name="kesikaogui_3">阶段目标</string>
+ 	<string name="kesikaogui_4">掌握安全文明驾驶知识，具备对车辆综合控制能力；了解行人、非机动车的动态特点及险情的预测和分析方法；
+ 	    熟练掌握一般道路和夜间驾驶方法，能够根据不同的道路交通状况安全驾驶；形成自觉遵守交通法规、有效处置随机交通状况、无意识合理操纵车辆的能力。</string>
+ 	<string name="kesikaogui_5">考试规则</string>
+ 	<string name="kesikaogui_6">主要考核安全文明驾驶操作要求、恶劣气象和复杂道路条件下的安全驾驶知识、
+ 	    爆胎等紧急情况下的临危处置方法以及发生交通事故后的处置知识等内容。科目四考试时间为30分钟，试题50道题，题型为判断题、
+ 	    单选题和多选题，最后5题为多选题，满分100分，90分合格。不合格可以当场补考一次，如仍旧不合格，只能再次预约考试时间（科目四没有补考次数限制）。</string>
+ 	<string name="kesikaogui_7">考试题库</string>
+ 	<string name="kesikaogui_8">考试题库为全国统一版本，不存在地方题的说法。共计1094题。</string>
+ 	<string name="kesikaogui_9">考试流程</string>
+ 	<string name="kesikaogui_10">(1) 驾校统一安排学员领取科目四考试受理凭证，学员要认真核对受理凭证上的基本信息
+ 	    （如姓名、身份证号、照片、准驾车型）是否与本人相符，无误后按受理凭证上的考试时间和考试地点，到车管所考场参加考试。</string>
+ 	<string name="kesikaogui_11">(2) 到车管所后，持本人有效身份证原件、考试受理凭证和学员候考证在科目四考试室外排队依次进入考场。</string>
+ 	<string name="kesikaogui_12">(3) 进入考场时，先将身份证原件及受理凭证交给考官登录确认，按计算机安排的座位号入座。
+ 	    入座后输入本人考试受理凭证流水号，按“确定”显示本人资料无误后再按“进入”开始考试。</string>
+ 	<string name="kesikaogui_13">(4) 在考试过程中，做完上一道题再点击下一道题（考试过程中选择确认答案后就提示对错，
+ 	    考一题过一题不能重选答案，错1题扣2分）。跳题按“选题”输入所需到达的题号，按“确定”后跳到要到达的题目。结束考试按“交卷”并再次根据屏幕中央的提示，
+ 	    按“结束考试”，看见分数后按“返回”退出考试。</string>
+ 	<string name="kesikaogui_14">(5) 考试共计50道题，时间为30分钟， 90分合格。成绩不合格，可以当场补考一次，学员需重新输入证件种类信息，
+ 	    核对姓名报考车型等无误后，开始补考。</string>
+ 	<string name="kesikaogui_15">(6) 考试期间监控系统将全程录像并随机拍摄考试者照片，学员不能左顾右盼或用手遮挡面部，如考试期间需要帮助，
+ 	    需举手向考场工作人员咨询，不能随意离开座位，如违反上述要求，将取消学员该次的考试成绩。</string>
+ 	<string name="kesikaogui_16">(7) 考试结束，学员到“出口”处凭“考试受理凭证”打印考试成绩表，确认姓名、身份证号和成绩是自己的后，在成绩表
+ 	    “被考人签名”栏签名，填写“考试当天的时间”。</string>
+ 	<string name="kesikaogui_17">(8) 参加考试一定要携带本人有效身份证原件和考试受理凭证，考试时自觉遵守考场纪律和维护考场秩序，严禁将考试书
+ 	    籍和个人随身携带的物品（包括手机、手提包）带入考场，禁止任何形式的作弊行为，保持肃静。否则，被车管所注销成绩或学籍，后果严重。</string>
+ 	
+ 	<string name="subjectTwoAndThreeTop">科目二/科目三——大小路考</string>
+	
+	<string name="selectSubjectTwoVideo">科目二视频管理</string>
+	<string name="daoCheRuKu">倒车入库</string>
+	<string name="zhaiLuDiaoTou">窄路调头</string>
+	<string name="poDaoStopAndBegin">坡道顶点停车和起步</string>
+	<string name="jinJiQingKuang">模拟紧急情况</string>
+	
+	<string name="selectSubjectThreeVideo">科目三视频管理</string>
+	<string name="keMuSanKaoShiXuZhi">科目三考试须知</string>
+	<string name="shangCheZhunBei">上车准备</string>
+	<string name="qiBu">起步</string>
+	<string name="zhiXianXingShi">直线行驶</string>
+	
+	
+	<string name="subject_two_kaogui_jianjie">简介</string>
+	<string name="subject_two_kaogui_jianjie_name">科目二，又称小路考，是机动车驾驶证考核的一部分，
+	    是场地驾驶技能考试科目的简称，考试项目包括倒车入库、侧方停车、
+	    坡道定点停车和起步、直角转弯、曲线行驶五项必考。</string>
+	<string name="subject_two_kaogui_jiaoxuemubiao">教学目标</string>
+	<string name="subject_two_kaogui_jiaoxuemubiao_name">掌握基础的驾驶操作要领，具备对车辆控制的基本能力；
+	    熟练掌握场地和场内道路驾驶的基本方法，
+	    具备合理使用车辆操纵机件、正确控制车辆运动空间位置的能力，
+	    能够准确地控制车辆的行驶位置、速度和路线。</string>
+	 <string name="subject_two_kaogui_xueshijieshao">学时介绍</string>
+	 <string name="subject_two_kaogui_xueshijieshao_name">
+	     共计26学时。其中理论2个学时，模拟驾驶3个学时，实操21个学时。
+	     
+	 </string>
+	 
+	 <string name="subject_two_kaogui_hegebiaozhun">合格标准</string>
+	 <string name="subject_two_kaogui_hegebiaozhun_name">
+	     满分为100分，设定不合格、减20分、减10分、减5分的项目评判标准。
+	     符合下列规定的，考试合格： 报考大型客车、牵引车、城市公交车、中型客车、大型货车准驾车型，
+	     成绩达到90分的； 报考其他准驾车型成绩达到80分的。
+	    
+	 </string>
+	 
+	 <string name="subject_two_kaogui_chengjiqueren">成绩确认</string>
+	 <string name="subject_two_kaogui_chengjiqueren_name">
+		科目二考试一次，考试不合格的，可以补考一次。
+		不参加补考或者补考仍不合格的，本次考试终止，申请人应当在十日后重新预约考试。
+		在驾驶技能准考证明有效期内，科目二和科目三道路驾驶技能考试预约考试的次数不得超过五次。
+		第五次预约考试仍不合格的，已考试合格的其他科目成绩作废。
+	</string>
+	
+	 <string name="subject_two_kaogui_kaoshiliucheng">考试流程</string>
+	 <string name="subject_two_kaogui_kaoshiliucheng_name01">
+		1.考前准备，穿平时练车时的衣服和鞋子，冬天不要穿太厚，鞋子最好是舒适的运动鞋或平底鞋。
+		带好考试所需物品，如身份证、准考证等证件。
+	</string>
+	<string name="subject_two_kaogui_kaoshiliucheng_name02">
+		2.签到，学员须持本人身份证和准考证，根据预约的日期及考试场次，提前30分钟到候考大厅验证指纹领取签到号。
+		签到号是上车考试的凭证，考试时，考场只叫号、不叫名。
+	</string>
+	<string name="subject_two_kaogui_kaoshiliucheng_name03">
+		3.候考，学员进入候考大厅后，应该遵守考场纪律，要暂时离开时，需向工作人员申请办理离场登记。
+		注意大厅广播叫号和留意大厅屏幕显示的信息，叫号语音提示音为“请***号到**号车考试”，
+		听到自己的号，要赶赴相应的考道。
+	</string>
+	<string name="subject_two_kaogui_kaoshiliucheng_name04">
+		4.上车准备，调整好座椅、后视镜和两边的倒视镜。系好安全带，注意安全带不要系反了。
+		一切准备就绪后验证指纹，根据语音提示进入相应的考道考试。
+	</string>
+	<string name="subject_two_kaogui_kaoshiliucheng_name05">
+		5.开始考试，考试有两次机会，第一次机会考试不合格，接着进行第二次考试，考试流程与第一次相同，
+		而且是同一辆车、同一条考道，须重新验证指纹。
+		要求每次机会五个项目都要合格，如果有一项不合格，则五个项目都要重考。
+	</string>
+	<string name="subject_two_kaogui_kaoshiliucheng_name06">
+		6.学员考试结束后，必须迅速离场，
+		不得妨碍和指挥他人考试，从出口离开考场，
+		带上签到号到成绩打印窗口打印成绩单。
+	</string>
+	
+	<string name="subject_two_kaogui_zhuyishixiang">注意事项</string>
+	<string name="subject_two_kaogui_zhuyishixiang_name01">
+	1.上车准备时一定要调好座椅、视镜，系好安全带后才能验证指纹。
+	</string>
+	<string name="subject_two_kaogui_zhuyishixiang_name02">
+	2.起步前切记打左转向灯，否则扣分。
+	（考试有三个地方必须打左转向灯，第一是刚上车时的起步，
+	第二是半坡起步，第三是侧方出库前的起步。）
+	</string>
+	<string name="subject_two_kaogui_zhuyishixiang_name03">
+	3.考场每个考试项目都是由GPS定位检测，每个项目的控制线（黄色虚线）代表该项目的考试区域。
+	只要车辆车头过了控制线就代表进入了该项目的考试，必须按该项目考试规则完成考试，
+	不能有踩刹车减速的行为，车辆不能熄火和停车，否则不及格。
+	考场与考场之间的道路，可以踩刹车减速、可以停下来等候。
+	</string>
+	<string name="subject_two_kaogui_zhuyishixiang_name04">
+	4.每次进入下一考试项目前，先确认是否还有车辆在前方考试，
+	如果前方项目有车辆正在考试，必须在该项目黄色线前停车等候，不得进入。
+	</string>
+	
+	<string name="subject_two_kaogui_koufenbiaozhun">扣分标准（总分100分，80分及格）</string>
+	
+	
+	<string name="subject_two_miji_kaoqianzhunbei">考前准备</string>
+	<string name="subject_two_miji_daocheruku">倒车入库</string>
+	<string name="subject_two_miji_dingdiantingcheheqibu">坡道定点停车和起步</string>
+	<string name="subject_two_miji_cefangtingche">侧方停车</string>
+	<string name="subject_two_miji_quxianxingshi">曲线行驶</string>
+	<string name="subject_two_miji_zhijiaozhuanwan">直角转弯</string>
+	
+	
+	
+	
+	
+	<string name="subject_three_kaogui_jianjie">简介</string>
+	<string name="subject_three_kaogui_jianjie_name01">科目三，又称大路考，是机动车驾驶证考核的一部分，是机动车驾驶人考试中道路驾驶技能和安全文明驾驶常识考试科目的简称。</string>
+	<string name="subject_three_kaogui_jianjie_name02">不同的准驾车型道路驾驶技能考试内容不同，
+	    一般包括：上车准备、起步、直线行驶、加减挡位操作、变更车道、靠边停车、
+	    直行通过路口、路口左转弯、路口右转弯、通过人行横道线、通过学校区域、通过公共汽车站、会车、超车、调头、夜间行驶。</string>
+	<string name="subject_three_kaogui_jianjie_name03">安全文明驾驶常识考试内容包括：安全文明驾驶操作要求、恶劣气象和复杂道路条件下的安全驾驶知识、
+	    爆胎等紧急情况下的临危处置方法以及发生交通事故后的处置知识等。</string>
+	
+	<string name="subject_three_kaogui_daolujiashijiqiao">道路驾驶技能</string>
+	<string name="subject_three_kaogui_daolujiashijiqiao_name01">科目三道路驾驶技能考试内容包括：大型客车、牵引车、城市公交车、
+	    中型客车、大型货车、小型汽车、小型自动挡汽车、低速载货汽车和残疾人专用小型自动挡载客汽车考试上车准备、
+	    起步、直线行驶、加减挡位操作、变更车道、靠边停车、直行通过路口、
+	    路口左转弯、路口右转弯、通过人行横道线、通过学校区域、通过公共汽车站、
+	    会车、超车、调头、夜间行驶；其他准驾车型的考试内容，由省级公安机关交通管理部门确定。</string>    
+	<string name="subject_three_kaogui_daolujiashijiqiao_name02">
+	    大型客车、中型客车考试里程不少于20公里，其中白天考试里程不少于10公里，夜间考试里程不少于5公里。
+	    牵引车、城市公交车、大型货车考试里程不少于10公里，其中白天考试里程不少于5公里，夜间考试里程不少于3公里。
+	    小型汽车、小型自动挡汽车、低速载货汽车、残疾人专用小型自动挡载客汽车考试里程不少于3公里，并抽取不少于20%进行夜间考试；
+	    不进行夜间考试的，应当进行模拟夜间灯光使用考试。   
+	</string>
+	<string name="subject_three_kaogui_daolujiashijiqiao_name03">
+	    对大型客车、牵引车、城市公交车、中型客车、大型货车，省级公安机关交通管理部门应当根据实际增加山区、隧道、陡坡等复杂道路驾驶考试内容。
+	    对其他汽车准驾车型，省级公安机关交通管理部门可以根据实际增加考试内容。
+	</string>
+	
+	<string name="subject_three_kaogui_wenmingjiashi">安全文明驾驶常识</string>
+	<string name="subject_three_kaogui_wenmingjiashi_name">科目三安全文明驾驶常识考试内容包括：安全文明驾驶操作要求、
+	    恶劣气象和复杂道路条件下的安全驾驶知识、爆胎等紧急情况下的临危处置方法以及发生交通事故后的处置知识等。
+	    </string>
+	    
+	<string name="subject_three_kaogui_xueshijieshao">学时介绍</string>
+	<string name="subject_three_kaogui_xueshijieshao_name">共计40学时。其中理论16个学时，模拟驾驶4个学时，实操20个学时。</string>
+	
+	<string name="subject_three_kaogui_kaoshiguize">考试规则</string>
+	<string name="subject_three_kaogui_kaoshiguize_name01">科目二考试通过后，才可以报名参加科目三考试。
+	    科目三有16项，包括上车准备、起步、直线行驶、加减挡位操作、变更车道、
+	    通过路口、靠边停车、路口左转弯、路口右转弯、通过人行横道线、通过学校区域、
+	    通过公共汽车站、会车、超车、调头、夜间行驶，对于大中型客货车，
+	    还规定省级公安交管部门应当根据实际增加山区、隧道、陡坡等复杂道路驾驶考试内容。
+	    </string>
+	<string name="subject_three_kaogui_kaoshiguize_name02">小型汽车、小型自动挡汽车、低速载货汽车、
+	    残疾人专用小型自动挡汽车考试里程不少于3公里，抽取不少于20%进行夜间考试，
+	    不进行夜间考试的，进行模拟夜间灯光使用考试。满分100分，90分以上为合格。
+	    </string>
+	<string name="subject_three_kaogui_kaoshiguize_name03">关于补考：驾驶准考证明在有效期内，科目三考试的预约次数不得超过5次，重新申请考试的预约时间为10日。考试不合格的，
+	    可以补考一次，即有5次“正考”和5次“补考”机会。
+	    第5次预约考试仍不合格的，已考试合格的其他科目成绩作废。
+	    </string>    
+	
+	<!-- 科目二考规 -->
+	<string name="subject_three_kaogui_kaoshiliucheng">考试流程</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name01">1.上车准备</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name01_name">考生须按安全员指示，靠近车身，（自左前车门向后）绕车一周，确认安全后打开车门上车。上车后听到语音提示“请学员做好考试准备，并进行指纹验证”，首先调整座椅至合适自己的位置，调整内、外后视镜，系好安全带。然后进行指纹验证。指纹仪位于方向盘左侧空调出风口下方。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name02">2.夜间行驶</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name02_name01">指纹验证成功后，白天考试学员在起步前，考生听到语音提示“下面开始模拟夜间灯光使用，请按照语音提示进行操作”后，考生应开始灯光操作。夜间行驶灯光模拟考试将从以下项目中随机抽取三项进行考试。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name02_name02">主要包括：</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name02_name03">你将要在路口处转弯，请使用正确灯光（交替使用远近光灯不少于2次）； 
+			你正在低能见度道路上行驶，请使用正确灯光（开启远光灯）； 
+			你将要通过急弯，请使用正确灯光（交替使用远近光灯不少于2次）； 
+			你将要通过坡路，请使用正确灯光（交替使用远近光灯不少于2次）； 
+			你将要通过拱桥，请使用正确灯光（交替使用远近光灯不少于2次）；
+			你将要通过人行横道，请使用正确灯光 （ 交替使用远近光灯不少于2次）； 
+			你将要通过没有交通信号灯控制的路口，请使用正确灯光（交替使用远近光灯不少于2次）； 
+			你将要超车，请使用正确灯光（先开启左转向灯，然后交替使用远近光灯不少于2次，再开启右转向灯）； 
+			你将要与其它车辆会车，请使用正确灯光（开启近光灯）； 
+			灯光模拟完毕后，考生需将灯光关闭，再进行下一项考试 抽取到夜间考试的学员应按照夜间考试实际路况进行驾驶。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name03">3.起步</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name03_name">当听到语音提示“请起步”后，踩离合器，将档位挂入一档，打左转向灯（大于3秒），同时（左扭头）观察左后视镜，确认安全后，鸣笛，放驻车制动器，平稳起步，拨正转向灯。在坡路起步时禁止后溜。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name04">4.路口右转弯</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name04_name">当听到语音提示“前方路口右转弯”后，开右转向灯（大于3秒）后，按导向箭头车道右转至行车道。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name05">5.调头</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name05_name">当听到语音提示“前方请调头”后，考生应打左转向灯（大于3秒），通过（左）后视镜观察左后方交通情况，确认安全后，方可降低车速，换入低档，驶入调头区域。驶入调头区域时应左右观察路况，确认安全后驶入新车道正常行驶并关闭左转向灯。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name06">6.直行通过路口</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name06_name">当听到语音提示“前方通过路口”后，考生应减速慢行（刹车），观察道路交通情况，按照信号灯指示行驶，通过路口时，车速应低于30km/h。路口内禁止停车。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name07">7.路口左转弯</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name07_name">当听到语音提示“前方路口左转弯”后，开左转向灯（大于3秒）后，按导向箭头车道左转至行车道。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name08">8.通过公交车站</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name08_name">当听到语音提示“通过公交车站”，考生应减速慢行（刹车）或在进入该区域前车速低于30km/h，左右（扭头）观察，注意避让公交车辆及行人，确认安全后方可通过。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name09">9.加速挡操作</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name09_name">当听到语音提示“请完成加减档动作”后，考生应该将档位调整至2档，从2档依次升至5档，在5档位时时速需超过40km/h，再将档位依次降至2档。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name10">10.会车</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name10_name">当听到语音提示“前方会车”后，考生须注意前方来车，靠行车道右侧行驶至会车项目结束。注意避让其他车辆，不能压非机动车道线。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name11">11.超车</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name11_name">当听到语音提示“请完成超车动作”后，考生应打左转向灯（大于3秒），同时通过（左）后视镜观察左后方交通情况，确认安全后方可向左转动方向盘，驶入左侧车道进行超车。超过被超车辆，确认与被超车辆保持安全距离后，打右转向灯（大于3秒），同时通过（右）后视镜观察右后方，确认安全后驶入原车道正常行驶。当不具备超车条件时，可等待条件允许时，完成超车动作，禁止右侧超车。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name12">12.直线行驶</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name12_name">当听到语音提示“请保持直线行驶”后，考生应目视前方，双手控制好方向盘，保持车辆直线行驶。严禁骑压道路分界线。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name13">13.变更车道</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name13_name">当听到语音提示“请变更车道”后，考生应打（左）转向灯（大于3秒），同时（左扭头）通过（左）后视镜观察后方交通情况，确认安全后，向（左）转动方向盘变更车道。当不具备变更条件时，考生应减速慢行，等待条件允许后进行变更车道。严禁连续变更两条车道。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name14">14.通过人行横道</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name14_name">当听到语音提示“前方通过人行横道”后，考生应减速慢行（刹车）或在进入该区域前车速低于30km/h。若有行人通过，请把车辆停在安全线外等候，在行人通过人行横道后方可通过。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name15">15.通过学校区域</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name15_name">当听到语音提示“前方通过学校”后，考生应减速慢行（刹车），或在进入该区域前车速低于30km/h，左右（扭头）观察，注意避让学生，确认安全后方可通过。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name16">16.靠边停车</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name16_name01">当听到语音提示“请靠边停车”后，考生打右转向灯（大于3秒），同时通过（右）后视镜观察右后方交通情况，确认安全后，将车辆（右侧）平行停放在小于路沿石（或者道路边缘实线）30厘米以内处，但不能压到路沿石（或者道路边缘实线），停稳车辆，拉起驻车制动器，摘空档。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name16_name02">听到语音提示“考试合格，请下车”或“考试未通过，请下车”后，观察左后方交通情况，确认安全后，打开车门下车，考试完毕。</string>
+	<string name="subject_three_kaogui_kaoshiliucheng_name16_name03">如果第一次考试不合格，语音提示“考试不合格，重新开始考试”，请不要下车，按照语音提示继续考试即可。</string>
+	
+	
+	<!-- 科目二秘籍  考前准备-->
+	<string name="subject_two_miji_kaoqianzhunbei_01">1.要早去厕所</string>
+	<string name="subject_two_miji_kaoqianzhunbei_01_name">进入候考大厅等待时，在身份证交上去之后，尽量立刻去厕所，首先可以缓解紧张情绪，而且早去厕所可以避免到通知考试的时候人不在，急匆匆赶回来，加剧心里紧张。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_02">2.分散注意力</string>
+	<string name="subject_two_miji_kaoqianzhunbei_02_name">在候考大厅等待时，尽量闭目养神，不要过多的再考虑驾驶技巧神马的了，不要让没考过的学员消极情绪影响到你，要学会分散注意力，调整心态一定要自己冷静。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_03">3.入场准备</string>
+	<string name="subject_two_miji_kaoqianzhunbei_03_name">一般驾校都是让学员排队等在入口处，这时最好别排第一位，因为一位会看到很多人垂头丧气的过来，也会听到考场里教练斥责没过的学员，会加重紧张感。个人建议排在5、6位，这样即听到教练叫名字，也不至于还没进场就直接看到失败的场景。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_04">4.对号入座</string>
+	<string name="subject_two_miji_kaoqianzhunbei_04_name">教练叫名字了，把准考证拿过去，教练会在准考证上写上几道几车号，有的教练还会写上几车库，这时候先别忙进去，仔细看看库和车是不是一致，因为教练错库的情况也是有的，核对一下花不了几秒钟的。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_05">5.情况观察</string>
+	<string name="subject_two_miji_kaoqianzhunbei_05_name">进入考场了，别急上车，可以先观察几秒钟稳定一下情绪。看看车的外观，一般来说就看看左车灯，看看轮胎胎气够不够饱，这个很重要。车胎气不太足那么刚靠带速可能不行要适当加油了。交接车时，如果有条件可以先问问刚下车的学员车况等信息。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_06">6.上车准备</string>
+	<string name="subject_two_miji_kaoqianzhunbei_06_name">上车后先系安全带，切记！安全带要扯的长一点，一定要让自己的脑袋可以自如的伸出窗外。然后赶紧试试点，把座位、后视镜都调整到平常在驾校学车的习惯位置。</string>
+	<string name="subject_two_miji_kaoqianzhunbei_07">7.准备起步</string>
+	<string name="subject_two_miji_kaoqianzhunbei_07_name">先不放手刹，挡位也放在空挡上，点一点油门，看看油门的软硬。然后放下手刹，挂一档，慢慢抬离合，找一找半联动的点同时也试一下离合的软硬。最后呢，车子慢慢动了，把方向盘回直，放开双手，看看车子是不是走直线，若有跑偏，记住跑偏的方向，到时候纠正方向盘用得着的。</string>
+	
+	<!-- 科二秘籍 倒车入库-->
+	<string name="subject_two_miji_daoche_01">1.倒车入库通过要求：</string>
+	<string name="subject_two_miji_daoche_01_name01">中间不能停顿，彻底否定了电子桩考试中，原地打死方向，对于辨认标识的做法。</string>
+	<string name="subject_two_miji_daoche_01_name02">1、将车停在车位线旁1.5米处；</string>
+	<string name="subject_two_miji_daoche_01_name03">2、当车尾处于差不多两个车位宽度的边线时，方向盘打满，往后倒车；</string>
+	<string name="subject_two_miji_daoche_01_name04">3、感觉车头正时，方向盘马上回正倒车。</string>
+	<string name="subject_two_miji_daoche_02">2.倒车入库轨迹图示：  此处需要有图片</string>
+	<string name="subject_two_miji_daoche_03">3.倒车入库操作要领：</string>
+	<string name="subject_two_miji_daoche_03_name01">在准备入库之前，允许稍微停顿一小会，考生可借此机会由后视镜观察车库边线，决定倒车时方向盘的角度。</string>
+	<string name="subject_two_miji_daoche_03_name02">1、充分利用车头某一参照物，当参照物位于道中间或一侧时，应能正确感觉到车辆所在位置，以确定打方向或回方向的时机及幅度大小；</string>
+	<string name="subject_two_miji_daoche_03_name03">2、要充分利用两眼余光作用，克服眼睛看远不顾近而造成修正方向较晚的现象；</string>
+	<string name="subject_two_miji_daoche_03_name04">3、养成车头不偏斜就不动方向盘的良好习惯。在修正方向时要做到“及时”二字，且幅度适中，一般在回正方向时应稍早，且幅度也要小；</string>
+	<string name="subject_two_miji_daoche_03_name05">4、结合场地训练，训练转向的时机和速度，如8字形、S形和直角转弯；</string>
+	<string name="subject_two_miji_daoche_03_name06">5、车辆在右侧行驶时，为防止车向右头偏斜，应将方向盘左转至无游动间隙，以便左手能感觉车辆此时所在位置。</string>
+	<string name="subject_two_miji_daoche_04">4.倒车入库评分标准：</string>
+	<string name="subject_two_miji_daoche_04_name01">1、不按规定路线顺序行驶，扣100分</string>
+	<string name="subject_two_miji_daoche_04_name02">2、没有完全倒入库内，扣100分</string>
+	<string name="subject_two_miji_daoche_04_name03">3、车身出线，扣100分</string>
+	<string name="subject_two_miji_daoche_04_name04">4、中途停车，扣100分(之前考试学员可以在入库前停车，现在，一旦GPS定位确定车辆处于完全停止的状态，学员将被直接扣除100分。)</string>
+	
+	<!-- 科二秘籍 坡道起步 -->
+	<string name="subject_two_miji_podao_01">场地要求：</string>
+	<string name="subject_two_miji_podao_01_name">陡坡的坡度必须大于等于10度，考C1驾照的陡坡长度要大于等于20米。在考试过程中，学员在陡坡停车后，必须在30秒内起步，否则就算失败。</string>
+	<string name="subject_two_miji_podao_02">1.坡道定点停车与起步图示： 需要图片</string>
+	<string name="subject_two_miji_podao_03">2.操作技巧：</string>
+	<string name="subject_two_miji_podao_03_name01">一、坡道定点停车：</string>
+	<string name="subject_two_miji_podao_03_name02">当听到口令时，先轻带刹车，打右转向灯，看右后视镜，往右打方向，等到车头的中间压到边线时，往左打方向，等车头中点离边线距离10厘米时，回正并保持边线距离，等目标到时，车刹停，拉紧手制动。</string>
+	<string name="subject_two_miji_podao_03_name03">1、迅速打右转禹灯，通过右侧倒车镜观察车辆后方有无跟车，确定是否可以转入右边车道；</string>
+	<string name="subject_two_miji_podao_03_name04">2、踩刹车向右慢打方向盘，将右前轮与地面白色实线平齐，调正车身，回正方向；</string>
+	<string name="subject_two_miji_podao_03_name05">3、当车速降低20KM/H左右时，踩下离合器踏板，然后稍稍松点脚刹，让车辆能够利用惯性向前滑行，待标杆从右侧倒车镜旁边滑过，与驾驶室对正时，轻踏刹车踏板，将车缓缓停稳；</string>
+	<string name="subject_two_miji_podao_03_name06">4、拉手刹；</string>
+	<string name="subject_two_miji_podao_03_name07">5、把变速杆拔到空挡位置；</string>
+	<string name="subject_two_miji_podao_03_name08">6、左脚松开离合器；</string>
+	<string name="subject_two_miji_podao_03_name09">7、右脚松脚刹；</string>
+	<string name="subject_two_miji_podao_03_name10">8、关掉右转向灯。</string>
+	<string name="subject_two_miji_podao_03_name11">二、坡道定点起步：</string>
+	<string name="subject_two_miji_podao_03_name12">换一挡，开左转向灯，按喇叭，拉紧手制动，松刹车，慢抬离合器，等抬到车头微往上抬时，轻加油门，松手制动，起步。</string>
+	<string name="subject_two_miji_podao_04">3.评分标准：</string>
+	<string name="subject_two_miji_podao_04_name01">1、没有定点停车，扣100分；</string>
+	<string name="subject_two_miji_podao_04_name02">2、车辆停止后，汽车前保险杠未到控制线，扣100分；</string>
+	<string name="subject_two_miji_podao_04_name03">3、停车后后溜大于30厘米，扣100分；</string>
+	<string name="subject_two_miji_podao_04_name04">4、停车后后溜小于30厘米，扣10分；</string>
+	<string name="subject_two_miji_podao_04_name05">5、起步未开左转向灯，扣10分；</string>
+	<string name="subject_two_miji_podao_04_name06">6、车辆行驶中压道路边缘实线，扣100分；</string>
+	<string name="subject_two_miji_podao_04_name07">7、车辆停止后，前保险杠未到停车线，扣10分；</string>
+	<string name="subject_two_miji_podao_04_name08">8、停车时右前轮距边缘线30厘米以上，扣10分；</string>
+	<string name="subject_two_miji_podao_04_name09">9、起步时间超30秒，扣100分。</string>
+	
+	<!-- 科二秘籍 侧方停车 -->
+	<string name="subject_two_miji_cefang_01">侧方停车在平时开车时经常遇到。新规实施后，侧方停车不再有竹竿，全部采用地上画线的形式做车库边界。学C1驾照的学员，侧方停车的车位长度是车辆长度的1.5倍加1米，只要是在这个范围内侧方倒车入库没过线的，都算通过。</string>
+	<string name="subject_two_miji_cefang_02">侧方停车图示：需要图片</string>
+	<string name="subject_two_miji_cefang_03">1.考试技巧：</string>
+	<string name="subject_two_miji_cefang_03_name01">1、首先要判断车位长短，侧方位停车之前首先要判断车位是否能容纳自己所开的车型。一般说来，自己所开车长再加一米的距离，就可以足够侧方位停车，不过对技术要求还是比较高。</string>
+	<string name="subject_two_miji_cefang_03_name02">2、接着前行至适当距离，准备倒车。确定车位长短合适后，将车向前开至与车位前车大至齐平的位置，两车横各相距约1米。此时如有需要，可将右侧后视镜的角度往下调，直到能看到右侧车轮为止，为倒车做好准备。</string>
+	<string name="subject_two_miji_cefang_03_name03">3、然后方向向右打完直至左后视镜能完全看到后车车头。保持右打方向到底慢慢倒车，直至左侧后视镜能完全看到后车的车头时快速将方向从最右打到最左，继续倒车。</string>
+	<string name="subject_two_miji_cefang_03_name04">4、最后要调节前后距离，把车摆正。随着后车轮和路肩的靠近、车身逐渐摆直，尾部也会接近后方车辆。这时可以采用扭头观看，或是利用倒车辅助系统来判断后车距离。最后把车子完全摆正，方向盘归位。</string>
+	<string name="subject_two_miji_cefang_04">2.考试标准：</string>
+	<string name="subject_two_miji_cefang_04_name01">1、车辆入库停止后，车身出线，扣100分；</string>
+	<string name="subject_two_miji_cefang_04_name02">2、行驶中车轮触压车道边线，扣10分；</string>
+	<string name="subject_two_miji_cefang_04_name03">3、未停车于库内，扣100分；</string>
+	<string name="subject_two_miji_cefang_04_name04">4、起步未开左转向灯，扣10分；</string>
+	<string name="subject_two_miji_cefang_04_name05">5、倒车未开右转向灯，扣10分(增加扣分项目，此前只要求停车起步需开左转向灯，也是最容易忽视导致扣分的项目。)</string>
+	<string name="subject_two_miji_cefang_04_name06">6、中途停车，扣100分。</string>
+	
+	<!-- 科二秘籍 曲线停车 -->
+	<string name="subject_two_miji_quxian_01">1.场地要求：</string>
+	<string name="subject_two_miji_quxian_01_name01">科目二考试曲线行驶的场地，看上去就是一个躺在地上的字母S。根据《小车考试项目尺寸标准》，C1驾照曲线行驶场地的圆弧半径为7.5米。车辆需从S型车道的一端进入后，不压线从另一端开出。</string>
+	<string name="subject_two_miji_quxian_01_name02">曲线行驶图示： 需要图片</string>
+	<string name="subject_two_miji_quxian_02">2.科目二考试考试技巧：</string>
+	<string name="subject_two_miji_quxian_02_name01">在进入左弯前，车辆靠右走，用车左前角一直压着右边线走，等到要换右弯时，方向回正，进入右弯，用车的右前角一直压着左边线走，等安全走出了曲线，方向再回正。</string>
+	<string name="subject_two_miji_quxian_02_name02">在进入右弯前，车辆靠左走，用车右前角一直压着左边线走，等到要换左弯时，方向回正，进入左弯，用车的左前角一直压着右边线走，等安全走出了曲线，方向再回正。</string>
+	<string name="subject_two_miji_quxian_02_name03">考场其实就是一条“S”形道路，只是路宽仅3.5米。一要保持全程一挡行驶，打方向不可过急，二是驶向右弯道时，右轮贴着其右边路牙，反之亦然。</string>
+	<string name="subject_two_miji_quxian_03">3.科目二考试考试标准</string>
+	<string name="subject_two_miji_quxian_03_name01">任一车轮压道路边缘线，扣100分(原规定车轮挤压边线扣20分，过线扣100分。新标准挤压边线也提高到扣100分。)</string>
+	<string name="subject_two_miji_quxian_03_name02">中途停车，扣100分。</string>
+	
+	
+	<!--科二秘籍 直角  -->
+	<string name="subject_two_miji_zhijiao_01">直角转弯的场地，看上去像一个平放在地上的L。新规实施后，直角转弯的场地，路长大于等于1.5倍车长，路宽为小型车辆的轴距加1米。</string>
+	<string name="subject_two_miji_zhijiao_02">1.直角转弯图示：</string>
+	<string name="subject_two_miji_zhijiao_03">2.考试技巧：</string>
+	<string name="subject_two_miji_zhijiao_03_name01">直角转弯的驾驶技巧是进入弯道后车位向右贴与右边线30到到40CM左右。左车窗第一个竖杠与直角重合时，方向盘向左打死。车身右侧靠近外直角边线前进，左、右前车门三角窗中间对准内、外直角线时方向向左、右打到底，车正时回正。</string>
+	<string name="subject_two_miji_zhijiao_03_name02">1、一挡通过，不加油门；</string>
+	<string name="subject_two_miji_zhijiao_03_name03">2、驶入考场时尽量紧贴右侧路牙；</string>
+	<string name="subject_two_miji_zhijiao_03_name04">3、正前方路牙一旦被引擎盖挡住视线，就要向左猛打方向，直到打到底；</string>
+	<string name="subject_two_miji_zhijiao_03_name05">4、看到车头对准出口，就迅速将方向回正。</string>
+	<string name="subject_two_miji_zhijiao_04">3.考试标准</string>
+	<string name="subject_two_miji_zhijiao_04_name01">任一车轮压道路边缘线，扣100分(原规定车轮挤压边线扣20分，过线扣100分。新标准挤压边线也提高到扣100分。)</string>
+	<string name="subject_two_miji_zhijiao_04_name02">中途停车，扣100分</string>
+	
+	
+	<!-- 科目三秘籍标题 -->
+	<string name="subject_three_koufen">科目三考试扣分标准</string>
+	<string name="subject_three_lukaokoujue">路考口诀</string>
+	<string name="subject_three_qibu">做好七步，路考必过</string>
+	<string name="subject_three_jiaocha">如何通过交叉路口</string>
+	<string name="subject_three_diaotou">调头技巧</string>
+	<string name="subject_three_yekao">夜考注意事项</string>
+	<string name="subject_three_wuzhao">五招远离路考恐惧</string>
+	<string name="subject_three_lukaomiji">路考秘籍</string>
+	
+	<!-- 科目三 秘籍扣分标准  综合-->
+	<string name="subject_three_koufen_namezh">综合评判：</string>
+	<string name="subject_three_koufen_namezh01">1.不按规定使用安全带或者戴安全头盔；</string>
+	<string name="subject_three_koufen_namezh02">2.不按考试员指令驾驶；</string>
+	<string name="subject_three_koufen_namezh03">3.遮挡、关闭车内音视频监控设备；</string>
+	<string name="subject_three_koufen_namezh04">4.行驶中空挡滑行；</string>
+	<string name="subject_three_koufen_namezh05">5.不能正确使用灯光、雨刮器等车辆常用操作件；</string>
+	<string name="subject_three_koufen_namezh06">6.不按规定速度行驶；</string>
+	<string name="subject_three_koufen_namezh07">7.起步时车辆后溜距离大于30cm；</string>
+	<string name="subject_three_koufen_namezh08">8.驾驶汽车双手同时离开转向盘；</string>
+	<string name="subject_three_koufen_namezh09">9.单手控制转向盘时，不能有效、平稳控制行驶方向；</string>
+	<string name="subject_three_koufen_namezh10">10.视线离开行驶方向超过2s；</string>
+	<string name="subject_three_koufen_namezh11">11.车辆行驶方向控制不准确，方向晃动，车辆偏离正确行驶方向；</string>
+	<string name="subject_three_koufen_namezh12">12.不能根据交通情况合理选择行驶车道、速度；</string>
+	<string name="subject_three_koufen_namezh13">13.使用档位与车速长时间不匹配，造成车辆发动机转速过高或过低；</string>
+	<string name="subject_three_koufen_namezh14">14.车辆在行驶中低头看挡或者连续2次挂档不进；</string>
+	<string name="subject_three_koufen_namezh15">15.行驶中身体任何部位伸出窗外；</string>
+	<string name="subject_three_koufen_namezh16">16.违反交通安全法律、法规，影响交通安全；</string>
+	<string name="subject_three_koufen_namezh17">17.制动、加速踏板使用错误；</string>
+	<string name="subject_three_koufen_namezh18">18.不按交通信号灯、标志、标线或者民警指挥信号行驶；</string>
+	<string name="subject_three_koufen_namezh19">19.考生未按照预约考试时间参加考试；</string>
+	<string name="subject_three_koufen_namezh20">20.车辆行驶中骑轧中心实线或者车道边缘实线；</string>
+	<string name="subject_three_koufen_namezh21">21.长时间骑轧车道分界线行驶；</string>
+	<string name="subject_three_koufen_namezh22">22.争道抢行，妨碍其他车辆正常行驶；</string>
+	<string name="subject_three_koufen_namezh23">23.行驶中不能保持安全距离和安全车速；</string>
+	<string name="subject_three_koufen_namezh24">24.连续变更两条或者两条以上车道；</string>
+	<string name="subject_three_koufen_namezh25">25.通过积水路面遇行人、非机动车时，有不减速等不文明驾驶行为；</string>
+	<string name="subject_three_koufen_namezh26">26.遇行人通过人行横道不停车让行，不主动避让优先通过的车辆、行人、非机动车；</string>
+	<string name="subject_three_koufen_namezh27">27.将车辆停在人行横道、网状线内等禁止停车区域；</string>
+	<string name="subject_three_koufen_namezh28">28.对可能出现危险的情形未采取减速、鸣喇叭等安全措施；</string>
+	<string name="subject_three_koufen_namezh29">29.因观察、判断或者操作不当出现危险情况；</string>
+	<string name="subject_three_koufen_namezh30">30.起步时车辆后溜，但后溜距离小于30cm，10分；</string>
+	<string name="subject_three_koufen_namezh31">31.驾驶姿势不正确，10分；</string>
+	<string name="subject_three_koufen_namezh32">32.起步或行驶中挂错档，不能及时纠正，10分；</string>
+	<string name="subject_three_koufen_namezh33">33.操纵转向盘手法不合理，10分；</string>
+	<string name="subject_three_koufen_namezh34">34.起步、转向、变更车道、超车、停车前不使用或错误使用转向灯，10分；</string>
+	<string name="subject_three_koufen_namezh35">35.起步、转向、变更车道、超车、停车前，开转向灯少于3s即转向，10分；</string>
+	<string name="subject_three_koufen_namezh36">36.转弯时，转、回方向过早、过晚，或者转向角度过大、过小，10分；</string>
+	<string name="subject_three_koufen_namezh37">37.遇情况时不会合理使用离合器半联动控制车速，10分；</string>
+	<string name="subject_three_koufen_namezh38">38.制动不平顺，10分；</string>
+	<string name="subject_three_koufen_namezh39">39.因操作不当造成发动机熄火一次，10分；</string>
+	<string name="subject_three_koufen_namezh40">40.换挡时发生齿轮撞击，10分；</string>
+	<string name="subject_three_koufen_namezh41">41.不能根据交通情况合理使用喇叭，10分；</string>
+	<string name="subject_three_koufen_namezh42">42.遇后车发出超车信号，不按规定让行，10分；</string>
+	<!--科目三 秘籍 扣分标准 上车准备 起步 直线行驶等  -->
+	<string name="subject_three_koufen_namesc">上车准备：</string>
+	<string name="subject_three_koufen_namesc01">1.不饶车一周检查车辆外观及周围环境；</string>
+	<string name="subject_three_koufen_namesc02">2.打开车门前不检查后方交通情况；</string>
+	
+	<string name="subject_three_koufen_nameqb">起步：</string>
+	<string name="subject_three_koufen_nameqb01">1.制动气压不足起步；</string>
+	<string name="subject_three_koufen_nameqb02">2.车门未完全关闭起步；</string>
+	<string name="subject_three_koufen_nameqb03">3.起步前，未观察内、外后视镜，未侧头观察后方交通情况；</string>
+	<string name="subject_three_koufen_nameqb04">4.启动发动机时，变速器操纵杆未置于空挡（驻车档）；</string>
+	<string name="subject_three_koufen_nameqb05">5.不松驻车制动器起步，但能及时纠正，10分；</string>
+	<string name="subject_three_koufen_nameqb06">6.发动机启动后，不及时松开启动开关，10分；</string>
+	<string name="subject_three_koufen_nameqb07">7.道路交通情况复杂时起步不能合理使用喇叭，5分；</string>
+	<string name="subject_three_koufen_nameqb08">8.起步时车辆发生闯动，5分；</string>
+	<string name="subject_three_koufen_nameqb09">9.起步时，加速踏板控制不当，致使发动机转速过高，5分；</string>
+	<string name="subject_three_koufen_nameqb10">10.启动发动机前，不检查调整驾驶座椅、后视镜、检查仪表，5分；</string>
+	
+	<string name="subject_three_koufen_namezx">直线行驶：</string>
+	<string name="subject_three_koufen_namezx01">1.方向控制不稳、不能保存车辆直线运行；</string>
+	<string name="subject_three_koufen_namezx02">2.遇前车制动时，不及时采取减速措施；</string>
+	<string name="subject_three_koufen_namezx03">3.不适时通过内、外后视镜观察后方交通情况，10分；</string>
+	<string name="subject_three_koufen_namezx04">4.未及时发现路面障碍或发现路面障碍物未及时采取减速措施，10分；</string>
+	
+	<string name="subject_three_koufen_namejj">加减档位操作：</string>
+	<string name="subject_three_koufen_namejj01">1.未按指令平稳加、减档 ；</string>
+	<string name="subject_three_koufen_namejj02">2.车辆运行速度与档位不匹配，10分；</string>
+	
+	<string name="subject_three_koufen_namebg">变更车道：</string>
+	<string name="subject_three_koufen_namebg01">1.变更车道前，未通过内外后视镜观察后方交通情况；</string>
+	<string name="subject_three_koufen_namebg02">2.变更车道前，判断车辆安全距离不合理，妨碍其他车辆正常行驶；</string>
+	
+	<string name="subject_three_koufen_nametb">靠边停车：</string>
+	<string name="subject_three_koufen_nametb01">1.停车前，不通过内、外后视镜观察后方和右侧交通情况；</string>
+	<string name="subject_three_koufen_nametb02">2.考试员发出靠边停车指令后，未能在规定的距离内停车；</string>
+	<string name="subject_three_koufen_nametb03">3.停车后，车身超过道路右侧边缘线或者人行道边缘；</string>
+	<string name="subject_three_koufen_nametb04">4.停车后，在车内开门前不侧头观察侧后方和左侧交通情况；</string>
+	<string name="subject_three_koufen_nametb05">5.下车后不关闭车门；</string>
+	<string name="subject_three_koufen_nametb06">6.停车后，未拉紧驻车制动器，10分；</string>
+	<string name="subject_three_koufen_nametb07">7.拉紧驻车制动器前放松行车制动踏板，10分；</string>
+	<string name="subject_three_koufen_nametb08">8.下车前不将发动机熄火，5分；</string>
+	<string name="subject_three_koufen_nametb09">9.停车后，车身距离道路右侧边缘线或者人行道边缘大于30cm，10分；</string>
+	
+	<string name="subject_three_koufen_namezxtglk">直行通过路口、路口左转弯、路口右转弯：</string>
+	<string name="subject_three_koufen_namezxtglk01">1.不按规定减速或者停车瞭望 ；</string>
+	<string name="subject_three_koufen_namezxtglk02">2.不观察左、右方交通情况，转弯通过路口时，未观察侧前方交通情况；</string>
+	<string name="subject_three_koufen_namezxtglk03">3.遇有路口交通阻碍时进入路口，将车辆停在路口内等待；</string>
+	<string name="subject_three_koufen_namezxtglk04">4.左转通过路口时，未靠路口中心点左侧转弯，10分；</string>
+	
+	<string name="subject_three_koufen_nametgrxd">通过人行横道线、学校区域、公共汽车站：</string>
+	<string name="subject_three_koufen_nametgrxd01">1.不按规定减速慢行 ；</string>
+	<string name="subject_three_koufen_nametgrxd02">2.观察左、右方交通情况；</string>
+	<string name="subject_three_koufen_nametgrxd03">3.未停车礼让行人；</string>
+	
+	<string name="subject_three_koufen_namehc">会车：</string>
+	<string name="subject_three_koufen_namehc01">1.在没有中心隔离设施或者中心线的道路上会车时，不减速靠右行驶，或未予其他车辆、行人、非机动车保持安全距离 ；</string>
+	<string name="subject_three_koufen_namehc02">2.横向安全间距判断差，紧急转向避让对方来车；</string>
+	<string name="subject_three_koufen_namehc03">3.会车困难时不让行；</string>
+	
+	<string name="subject_three_koufen_namecc">超车：</string>
+	<string name="subject_three_koufen_namecc01">1.超车前不通过内、外后视镜观察后方和左侧交通情况 ；</string>
+	<string name="subject_three_koufen_namecc02">2.超车时机选择不合理，影响其他车辆正常行驶；</string>
+	<string name="subject_three_koufen_namecc03">3.超车时，未侧头观察被超车车辆动态；</string>
+	<string name="subject_three_koufen_namecc04">4.超车时，未与被超车辆保持安全距离；</string>
+	<string name="subject_three_koufen_namecc05">5.超车后急转向驶回原车道，妨碍被超车辆正常行驶；</string>
+	<string name="subject_three_koufen_namecc06">6.在没有中心线或同方向只有一条行车道的道路上从右侧超车；</string>
+	<string name="subject_three_koufen_namecc07">7.当后车发出超车信号时，具备让车条件不减速靠右让行，10分；</string>
+	
+	<string name="subject_three_koufen_namedt">调头：</string>
+	<string name="subject_three_koufen_namedt01">1.不能正确观察交通情况选择调头时机 ；</string>
+	<string name="subject_three_koufen_namedt02">2.调头地点选择不当；</string>
+	<string name="subject_three_koufen_namedt03">3.调头前未发出调头信号；</string>
+	<string name="subject_three_koufen_namedt04">4.调头时，妨碍正常行驶的其他车辆和行人通行，10分；</string>
+	
+	<string name="subject_three_koufen_nameyjxs">夜间行驶：</string>
+	<string name="subject_three_koufen_nameyjxs01">1.不能正确开启灯光 ；</string>
+	<string name="subject_three_koufen_nameyjxs02">2.同方向近距离跟车行驶时，使用远光灯；</string>
+	<string name="subject_three_koufen_nameyjxs03">3.通过急弯、坡路、拱桥、人行横道或者没有信号灯控制的路口时，不交替使用远近光灯示意；</string>
+	<string name="subject_three_koufen_nameyjxs04">4.会车时不按规定使用近光灯；</string>
+	<string name="subject_three_koufen_nameyjxs05">5.通过路口时使用远光灯；</string>
+	<string name="subject_three_koufen_nameyjxs06">6.超车时未交替使用远近光灯提醒被超越车辆；</string>
+	<string name="subject_three_koufen_nameyjxs07">7.在有路灯，照明条件良好的道路上行驶时，使用远光灯；</string>
+	<string name="subject_three_koufen_nameyjxs08">8.在路边临时停车不关闭前照灯或不开启示廓灯；</string>
+	<string name="subject_three_koufen_nameyjxs09">9.进入无照明、照明情况不良的道路行驶时不使用远光灯，扣5分</string>
+	
+	<!-- 科三秘籍路考口诀 -->
+	<string name="subject_three_koujue_name01">上车喊报告！</string>
+	<string name="subject_three_koujue_name02">拉门出左脚，坐好叫考官，面带梨涡笑。</string>
+	<string name="subject_three_koujue_name03">关门深呼吸，坐姿要摆好。</string>
+	<string name="subject_three_koujue_name04">查看空挡位，点火要轻柔。</string>
+	<string name="subject_three_koujue_name05">方向别忘了，挂挡要干脆，手刹要放掉。</string>
+	<string name="subject_three_koujue_name06">起步问考官，多看后视镜，喇叭来欢叫。</string>
+	<string name="subject_three_koujue_name07">离合器放松，做好半连动，出发要稳当，别让考官晃！</string>
+	<string name="subject_three_koujue_name08">换挡要及时，加挡要迅速，遇人要刹车，可别过了头。</string>
+	<string name="subject_three_koujue_name09">转弯要减速，立即减下挡，多看多停顿，安全放心中。</string>
+	<string name="subject_three_koujue_name10">肩膀要放松，双手放到位，神态要自然，莫因考官慌。</string>
+	<string name="subject_three_koujue_name11">自己有信心，艰辛都不怕，胆大又心细，礼貌别忘了。</string>
+	<string name="subject_three_koujue_name12">只要牢记着，考试准能过！</string>
+	
+	<!-- 科三秘籍七步必过 -->
+	<string name="subject_three_qibu_name01">1.上车前，无论你在车辆的什么位置，请务必从车的右侧绕过车头走到驾驶室门前，先观察车前道路上是否有障碍，再观察车后方是否有来车，确保安全后，打开车门，上车。</string>
+	<string name="subject_three_qibu_name02">2.轻轻关闭车门，将事先准备好的身份证件，用双手递给考官，面带微笑做自我介绍：“考官您好，我是XX驾校学员，我叫XXX，这是我的证件。”</string>
+	<string name="subject_three_qibu_name03">3.尽可能地比较熟练的快速调整好座椅、左右中3个观后镜，系好安全带，观察仪表，如果仪表正常，微笑着向考官征询意见：“报告考官，仪表正常，请问是否可以起步？”</string>
+	<string name="subject_three_qibu_name04">4.得到允许后，踩离合，挂1挡，打左转向灯，按喇叭、观察后视镜，确认安全后，松离合到半连动，右手同时放掉手刹（可有效防止上坡起步后溜），平稳起步。</string>
+	<string name="subject_three_qibu_name05">5.顺利起步后，不要急于立即向左变更车道，继续直行，同时关闭左转向灯，踩离合，换到2挡（陡坡起步可以一直用1挡爬到坡顶再换挡），慢一点松离合，右脚同时给一点油门防止冲车或者熄火。加油保持2挡前进，观察速度表到达30公里以上或者发动机转速超过2000，换到3挡行驶，保持30的速度行驶，如果考官不要求加速，请不要在他面前炫耀你的技术而开到60公里以上，那样只会让他感觉你喜欢开快车，不安全。行进过程中，千万别忘记隔个10多秒就看一下后视镜哦。</string>
+	<string name="subject_three_qibu_name06">6.当听到“靠边停车”的口令后，你距离成功很近了，不要慌，第一反应是打右转向灯，然后脑袋做个明显的偏转动作去看右边的后视镜，如果右边后方没有车辆，请向右打方向，同时踩刹车，左脚离合也跟着踩下去，用平时你定点停车的感觉使车距离右边路沿30CM的时候，回正方向，将车停稳在路边。</string>
+	<string name="subject_three_qibu_name07">7.车辆停稳后，拉手刹，拨回空挡，双脚松开离合刹车，关掉右转向灯，松开安全带，面向考官说：“谢谢考官！”然后观察左镜子，确认后方没来车后，开车门下车。下车后，用双手轻轻关上车门，再次说声：“谢谢考官！”</string>
+	<string name="subject_three_qibu_name08">综述：路考是人考，人为的因素很重要，谦逊的态度和礼貌能弥补你的技术不足，甚至能挽救你的结局，对考官礼貌点，甚至巴结点，相信我有好处的；路考是考动作，不是考速度，所以一定按程序想好，做完该做的动作而不是追求挂上5挡冲到100码。</string>
+	
+	<!-- 科三秘籍交叉路口 -->
+	<string name="subject_three_jiaocha_name01">通过交叉路口，是科目三考试的一个环节。不少考生在这一环节都有所丢分，不外乎没有停车让行，或是看错交通信号灯。</string>
+	<string name="subject_three_jiaocha_name02">1.有信号灯的路口</string>
+	<string name="subject_three_jiaocha_name03">进入交叉路口左转时，要靠路口中心点左侧转弯，开启转向灯，夜间使用近光灯。遇到停止信号时，通过交叉路口的车要依次停在停止线以外，没有停止线的，停在路口以外。</string>
+	<string name="subject_three_jiaocha_name04">2.没有信号灯的路口</string>
+	<string name="subject_three_jiaocha_name05">在没有红绿灯的路口，转弯机动车让直行的车辆、行人先行。相对方向行驶的右转弯机动车让左转弯车辆先行。而且还要重点记住，行人也在被让行之列。</string>
+	<string name="subject_three_jiaocha_name06">3.有些交叉路口没有红绿灯，但有交通标志、标线，交通法做了明确规定，机动车行经这样的交叉路口时，应让优先通行的一方先行。</string>
+	<string name="subject_three_jiaocha_name07">4.没有交通标志、标线的路口，不管任何一方，在接近路口需要通过时，按交通法要求，都要停车让行，如自己的右侧有车要通过路口，要优先让行。</string>
+	<string name="subject_three_jiaocha_name08">5.优先通过路口的一方，也同样有优先让自己右方来车先通过的法定义务，依次类推，不管通过路口的哪一方，都要优先让自己右方的来车先行。</string>
+	<string name="subject_three_jiaocha_name09">6.机动车准备进入环形路口时，让已在路口内的机动车先行，如果强行插队、硬挤硬插，就属违章行为。</string>
+	
+	<!-- 科三秘籍调头技巧 -->
+	<string name="subject_three_diaotou_name01">1.开左灯、减速甚至停下，注意观察路况，同时密切注意来往车辆情况，必要时停车等待。</string>
+	<string name="subject_three_diaotou_name02">2.小路在路口调头时，需要向右借一点。</string>
+	<string name="subject_three_diaotou_name03">具体操作：打左向灯，减速至五公里左右，观察来往车辆确认安全，人至停车线或进路口时（也可凭感觉），向右打方向（路越窄越多借），然后向左打方向到底，要注意的是路况，是否有坑、障碍物，或者停有自行车等，根据实际情况判断需要向右借多少。</string>
+	<string name="subject_three_diaotou_name04">3.小路调头时要借助一边的空地，整个过程同样要密切注意来往车辆，确认安全。</string>
+	<string name="subject_three_diaotou_name05">若是左侧：打左向灯，减速，靠右走，观察左侧厂门（或空地）的中线，人过中线，方向打到底调头。</string>
+	<string name="subject_three_diaotou_name06">若是右侧：打左向灯，减速，靠右走，人与空地边缘齐向右推（路越窄推得越多）或者打一圈，至人越过路边后（路越窄向右借得越多），向左打方向到底调头。</string>
+	
+	<!-- 科三秘籍夜考 -->
+	<string name="subject_three_yekao_name01">夜考主要考察夜间汽车灯光的使用</string>
+	<string name="subject_three_yekao_name02">1.发动车辆，打开车灯，车辆启动前注意转向灯。</string>
+	<string name="subject_three_yekao_name03">2.行驶过程中，注意近光灯与远光灯的合理使用。一是会车时，距来车150米左右，必须使用近光灯；二是当跟随前方车辆时，必须使用近光灯；三是超车时，一方面打开转向灯，另一方面必须使用远近光灯变换提醒前方车辆；四是经过道口，必须使用远近光灯变换提醒路口左右车辆注意。</string>
+	<string name="subject_three_yekao_name04">3.晚上行车，在无雾、无大雨情况下，不要使用雾灯。</string>
+	<string name="subject_three_yekao_name05">4.夜间行车，注意车速控制。一般低于道路最高限速。</string>
+	<string name="subject_three_yekao_name06">5.会车时，注意稳住车辆行驶方向，不要过于向右边靠，注意右方行人或车辆。</string>
+	<string name="subject_three_yekao_name07">6.夜间道路显得比其他地方白些，注意看清楚路面标志。</string>
+	<string name="subject_three_yekao_name08">7.经过桥梁、上坡或下坡时，能正确估计车辆行驶位置。</string>
+	<string name="subject_three_yekao_name09">注：一般情况下，夜考行驶距离要比路考短，控制好速度，把握好灯光，还是容易通过的。</string>
+	
+	<!-- 科三秘籍五招 -->
+	<string name="subject_three_wuzhao_name01">1.提速并线</string>
+	<string name="subject_three_wuzhao_name02">正常路况下，常见新手司机一脚刹车，然后慢慢并线。此行为极易招致事故，至少会立即引起堵车。应当在打转向灯后，看准安全的空档，稍微提速并同时打轮并线，尽量使自己的车速比后车快10KM左右，以免后车处理不及。</string>
+	<string name="subject_three_wuzhao_name03">2.刹车时观察后视镜</string>
+	<string name="subject_three_wuzhao_name04">现在路上车距都较近，刹车时顺带注意一下后车距离，如果距离太近，并且自己与前车还有一定的距离，就稍微松一点刹车，避免追尾。</string>
+	<string name="subject_three_wuzhao_name05">3.过弯技巧</string>
+	<string name="subject_three_wuzhao_name06">弯前减速，弯半加速，又快又稳。入弯过急然后再踩刹车，很容易甩尾或侧倾。</string>
+	<string name="subject_three_wuzhao_name07">4.减档超车</string>
+	<string name="subject_three_wuzhao_name08">需要快速超车时，先减一个档位，使发动机输出更大的牵引力（仅适用于手动档车）。另外，山路超车时，先尽量贴近前车，减少超车距离。</string>
+	<string name="subject_three_wuzhao_name09">5.在双向混行车道行驶时尽量靠左</string>
+	<string name="subject_three_wuzhao_name10">很多新手害怕与对面来车剐蹭，喜欢稍微靠右一点。需要注意的是，右面是行人，发生事故是“铁撞肉”，麻烦大大。左面发生事故最多是“铁蹭铁”，孰重孰轻一想便知。当然，提高技术安全驾驶更重要。</string>
+	
+	<!-- 科三秘籍路考秘籍-->
+	<string name="subject_three_lukaomiji_namesc_name01">上车准备注意事项</string>
+	<string name="subject_three_lukaomiji_namesc_name02">1.不绕车一周检查车辆外观及安全状况，不合格；</string>
+	<string name="subject_three_lukaomiji_namesc_name04">上车准备步骤：环视车辆、确保安全；调整驾驶座，身体坐正，双手向前伸直，以手腕刚好能放在方向盘上为准。左脚搁在离合器上，右脚搁在刹车上，小腿和大腿成90度。左脚可以轻松把离合器踩到底。身体离方向盘20—25厘米；最后，系好安全带。</string>
+	<string name="subject_three_lukaomiji_namesc_name03">打开车门前不观察后方交通情况，不合格。</string>
+	
+	<string name="subject_three_lukaomiji_namesc_name05">起步</string>
+	<string name="subject_three_lukaomiji_namesc_name06">确认无误后，点火准备开车起步，必须做到迅速、平稳、不闯动、不后溜、不熄火。</string>
+	<string name="subject_three_lukaomiji_namesc_name07">1.踩下离合器，确定档位在空档位置，拧钥匙发动，此时右脚放在油门位置准备，左脚踩住离合器没松。</string>
+	<string name="subject_three_lukaomiji_namesc_name08">2.右手挂进一档，然后放到手制动上准备（向上一拎，大拇指指尖按住按纽不放），左手开启左转向灯，按喇叭，转头向左看后视镜及侧面。</string>
+	<string name="subject_three_lukaomiji_namesc_name09">3.左脚慢慢抬起离合器，抬到车头一翘时（车有动力了）左脚稳住不动，右手放下手制动，车辆开始向前移动，然后再完全松开离合器，同时稳定地踩下油门。</string>
+	
+	<string name="subject_three_lukaomiji_namezxxs_name01">直线行驶</string>
+	<string name="subject_three_lukaomiji_namezxxs_name02">1.驾驶员直线行驶时要目视前方注意两旁，必须选定好参照物，保持直线行驶，及时修正方向，时刻注意前方各种交通情况，做到及时发现、及时处理。车速较快，应看得远些；车速较慢，应适当看得近些；并用余光适时注意车辆周围的情况。</string>
+	<string name="subject_three_lukaomiji_namezxxs_name03">2.操作方向盘要一手拉动一手推送，用两手操纵转向盘要平稳、自然，双手保持与肩同宽，用力不要太大；修正方向时，要早打、少打、有打有回，保持车辆直线进行。</string>
+	<string name="subject_three_lukaomiji_namezxxs_name04">3.匀速行驶保持直线，车速不要超过警戒线，既能保证行车安全，又能节油，考试时要按照要求来进行加速或者减速。</string>
+	    
+	<string name="subject_three_lukaomiji_namebgcd_name01">变更车道</string>
+	<string name="subject_three_lukaomiji_namebgcd_name02">分起步变道、行驶中变道和停车变道，步骤都差不多，先打左灯（往右变道打右灯），看左镜（右变道看右镜）确认安全的情况下起步并进入车道，给油加档就可以了，行驶中变道注意看后视镜确认安全的情况下尽量先变量再减速，直接减速可能会影响后车，靠边停车变道也是一样，先打右灯看右后视镜，安全的情况下并线，左水槽对路中线停车。</string>
+	<string name="subject_three_lukaomiji_namebgcd_name03">1.变更车道前，不通过内、外后视镜观察后方道路交通情况，不合格；</string>
+	<string name="subject_three_lukaomiji_namebgcd_name04">2.变更车道时，判断车辆安全距离不合理，妨碍其他车辆正常行驶，不合格；</string>
+	<string name="subject_three_lukaomiji_namebgcd_name05">3.连续变更两条以上车道，不合格。</string>
+	
+	<string name="subject_three_lukaomiji_nametglk_name01">通过路口</string>
+	<string name="subject_three_lukaomiji_nametglk_name02">1.从小路进主路时，要以对方车距6秒为原则。</string>
+	<string name="subject_three_lukaomiji_nametglk_name03">2.自己左转时稍等一下右转车，自己右转时稍等一下左转车，通过路口注意事项解释，这样可以防止对方转弯过大而转到自己的线上。</string>
+	<string name="subject_three_lukaomiji_nametglk_name04">3.看到左右车都减速时，也马上减速，通过路口注意事项介绍，可能有行人过马路。</string>
+	<string name="subject_three_lukaomiji_nametglk_name05">4.车到路口，车在路口要起步时，养成习惯左、中、右看一眼，防备他人闯红灯。</string>
+	<string name="subject_three_lukaomiji_nametglk_name06">5.小路进大路右转和红灯右转，看好一辆车，紧追该车右转很安全。但要防止其它车道的车换线。所以当第一道没车，第二道有车时，就看准第二道车之后右转。</string>
+	<string name="subject_three_lukaomiji_nametglk_name07">6.把黄灯当红灯，用路口行人灯做参考。当行人灯是通行时，可以放心过路口，当行人灯是不通行时，脚离开油门，自然减速，这给自己和后车都留下很多反应时间来在黄灯出现时停车。路口无行人指示灯时，以时间判断，绿灯刚亮不久，可以过，绿灯亮了很久，脚离开油门，准备等黄灯刹车。</string>
+	
+	
+	<string name="subject_three_lukaomiji_nametgrxd_name01">通过人行横道线、通过学校区域、通过公共汽车站</string>
+	<string name="subject_three_lukaomiji_nametgrxd_name02">车辆行驶中遇有人行道、学校区域、公交站牌时，考试员在距上述地点150米外向考生分别发出“通过人行横道线”、“通过学校区域”、“通过公共汽车站”三项指令，考生在执行上述三项指令时，要减速慢行、鸣号，做出左右观察的动作，遇有行人穿越人行横道线时，应停车让行。考生要严格执行安全驾驶原则，做到注意力均匀分布、视线合理转移。</string>
+	<string name="subject_three_lukaomiji_nametgrxd_name03">考核考生在上述路段驾驶车辆时，是否减速慢行、左右观察，特别是遇有行人通过人行横道线时，是否停车让行，观察考生是否注意力均匀分布、视线合理转移。</string>
+	
+	<string name="subject_three_lukaomiji_namehcch_name01">会车、超车</string>
+	<string name="subject_three_lukaomiji_namehcch_name02">1.会车：车辆行驶在没有中心隔离或没有中心线的道路上会车时，考试员发出“会车”指令，考生应严格遵守交通安全法律法规，做到文明驾驶、文明礼让。在会车过程中，保持横向安全间距。</string>
+	<string name="subject_three_lukaomiji_namehcch_name03">2.超车：车辆行驶中，遇有前方低速行驶的车辆，在道路状况良好时，考试员发出“超车”指令，考生要通过内外后视镜观察后方和左侧交通情况，准确选择超车时机、超车与被超越车辆的安全距离，确保安全超车。</string>
+	
+	<string name="subject_three_lukaomiji_namedt_name01">调头</string>
+	<string name="subject_three_lukaomiji_namedt_name02">前方有考试路段调头标志时，考试员要充分观察相向车道来车情况，适时发出“调头”指令，考生要从安全行驶的原则出发，准确选择调头时机与调头地点，在调头过程中不得妨碍正常行驶的其他车辆和行人的通行。</string>
+	<string name="subject_three_lukaomiji_namedt_name03">在看到调头标志时记得要打左转向灯（规定是100米至50米之内打灯，宁早勿晚）。快到调头地点前减速减档至一档，注意看左镜观察后方车况，还要注意对面车况，注意不要抢行，如果车道窄的话，可以右打一把，再左打死，这样就不会碰到路沿了，调头后回正。</string>
+	
+	<string name="subject_three_lukaomiji_namekbtc_name01">靠边停车</string>
+	<string name="subject_three_lukaomiji_namekbtc_name02">在完成规定的考试项目后，考试员发出“靠边停车”指令，考生听到命令后准备停车。</string>
+	<string name="subject_three_lukaomiji_namekbtc_name03">1.打右灯；</string>
+	<string name="subject_three_lukaomiji_namekbtc_name04">2.观察右后视镜（要有明显的摆头动作，要不会被误认为不看后视镜的），观察周围环境；</string>
+	<string name="subject_three_lukaomiji_namekbtc_name05">3.松油减速；</string>
+	<string name="subject_three_lukaomiji_namekbtc_name06">4.动方向，确定停车位；</string>
+	<string name="subject_three_lukaomiji_namekbtc_name07">5.停车后车辆距离道路右侧边缘线或人行道边缘距离要符合规定要求；</string>
+	<string name="subject_three_lukaomiji_namekbtc_name08">6.停车后先拉手刹再回空档，将转向灯回正并将发动机熄火，在车内开门前要先看左后视镜（做侧头动作），观察侧后方和左侧交通情况再推门下车，下车后关好车门。</string>
+	<string name="subject_three_lukaomiji_namekbtc_name09">7.夜间在路边停车时要关闭前照灯、开启警示灯，做好安全防护措施，以免发生事故。</string>
+	
+	
+	<string name="title_bar_txt">个人信息</string>
+	
+	
+	
+	
+</resources>

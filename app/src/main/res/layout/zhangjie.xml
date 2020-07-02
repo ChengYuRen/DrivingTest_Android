@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/tiezi_bg">
+
+    <LinearLayout
+        android:id="@+id/zhangjie_linear_sdati"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bj" >
+
+        <ImageView
+            android:id="@+id/back"
+             android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui" />
+
+        <TextView
+            android:id="@+id/textview_biaoti_dati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/back"
+            android:text="章节练习"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textview_tongbu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="130dp"
+            android:text="同步"
+            android:textColor="#FFFF00"
+            android:visibility="gone"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+    
+    <!-- 这个是测试  看看     级的添加  滚动-->
+
+    <ListView
+        android:id="@+id/ListView_zhangjie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Linear_qingkongSC"
+        android:layout_below="@+id/zhangjie_linear_sdati"
+        android:choiceMode="singleChoice" >
+
+    </ListView>
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/Linear_qingkongSC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff0000" >
+
+        <TextView
+            android:id="@+id/textview_qingkong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="清空所有收藏"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guanyu_back"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            android:background="@drawable/bj"
+        >
+
+        <ImageView
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                	android:layout_toRightOf="@+id/button_subject_two_kaogui_title"
+                    android:text="关于我们"
+                    
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="软件版本1.0"
+        />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/school_list_button_bg"
+        android:text="关于我们"
+        android:gravity="center_vertical"
+        />
+    
+    
+    <!-- 版权layout -->
+    <LinearLayout
+        android:id="@+id/linearlaout_banquan"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_category_item"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:orientation="horizontal" >
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+        <TextView       
+        android:id="@+id/textview_tiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/jiakao_icon_grzx_tiku"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:text="版权所有"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+        
+        <TextView 
+            android:id="@+id/textview_xiaoche"
+        	android:layout_width="80dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="50dp"
+        	android:layout_marginTop="5dp"
+        	android:text="ChengYR"
+        	android:textColor="#ff959595"
+        	android:textSize="14.5sp"
+            />
+
+        </LinearLayout>
+        
+   		
+    </LinearLayout>
+    <!-- 关于END -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/school_list_button_bg"
+        android:text="联系方式"
+        android:gravity="center_vertical"
+        />
+    
+    <!-- 邮箱layout -->
+    <LinearLayout
+        android:id="@+id/linearlaout_banquan"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_category_item"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:orientation="horizontal" >
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+        <TextView       
+        android:id="@+id/textview_tiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/jiakao_icon_grzx_tiku"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:text="邮箱"
+        android:textColor="#ff959595"
+        android:textSize="16.0sp" />
+        
+        <TextView 
+            android:id="@+id/textview_xiaoche"
+        	android:layout_width="150dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="50dp"
+        	android:layout_marginTop="5dp"
+        	android:text="CYR@gmail.com"
+        	android:textColor="#ff959595"
+        	android:textSize="14.5sp"
+            />
+
+        </LinearLayout>
+        
+   		
+    </LinearLayout>
+    <!-- 关于END -->
+
+</LinearLayout>

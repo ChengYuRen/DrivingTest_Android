@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/tieba_bg">
+
+    <RelativeLayout
+        android:id="@+id/luntan_tead"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bj" >
+
+        <ImageView
+            android:id="@+id/fanhui_lt"
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:gravity="bottom"
+            android:src="@drawable/fanhui" />
+
+        <TextView
+            android:id="@+id/luntan_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fanhui_lt"
+            android:layout_centerHorizontal="true"
+            android:text="标题"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListView_xuanxiang"
+        android:layout_width="fill_parent"
+        android:layout_height="304dp"
+        android:layout_weight="0.44"
+        android:choiceMode="singleChoice"
+        android:fadingEdge="none"
+        android:scrollingCache="false" >
+    </ListView>
+
+    <ScrollView
+        android:id="@+id/ScrollView_tiemian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp" >
+            <ImageView 
+                 android:id="@+id/imageview_canyutaolun"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dip"
+                  android:layout_gravity="center"
+                  android:src="@drawable/canyutaolun" />
+        </LinearLayout>
+    </ScrollView>
+    <!-- 上面的是  参与讨论   发主贴   下面的是  小  回复-->
+    <ScrollView
+        android:id="@+id/ScrollView_hufu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp" 
+            android:background="@drawable/duihuakuang_bg"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edittext_fabureply"
+                android:layout_marginTop="5dp"
+                android:layout_width="240dip"
+                android:layout_height="50dp"
+                android:hint="请输入内容"
+                android:singleLine="false" >
+
+                
+            </EditText>
+            <ImageView 
+                 android:id="@+id/imageview_fabureply"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dip"
+                  android:layout_gravity="center"
+                  android:src="@drawable/fabu" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

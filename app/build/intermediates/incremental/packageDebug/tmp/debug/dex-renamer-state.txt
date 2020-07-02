@@ -1,0 +1,4 @@
+#Mon Jun 15 08:19:40 CST 2020
+base.0=E\:\\Graduation_Project\\Source_Code\\DriverSystem_AndroidStudio\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

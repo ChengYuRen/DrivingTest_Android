@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            android:background="@drawable/bj"
+        >
+
+        <ImageView
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                	android:layout_toRightOf="@+id/button_subject_two_kaogui_title"
+                    android:text="设置题库"
+                    
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp">
+		</TextView>
+
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc"
+        android:orientation="vertical"
+        
+        >
+    
+    <TextView 
+        android:id="@+id/textview02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/learenCar"
+        android:gravity="center"
+        android:textColor="#436EEE"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp" />
+    
+    <TextView 
+        android:id="@+id/textView_Shitishu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="科目一共题，科目四共题"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        />   
+    </LinearLayout>
+    
+   	<TextView 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="请选择题库"
+   	    android:gravity="center"
+   	    android:layout_marginTop="10dp"
+   	    />
+   	
+   	<ImageView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/jiakao_dushed_line_heng"
+	    />
+    
+    <!-- 小车货车客车等车 含有科目一 科目四 摩托车含有科目一 无科目四 -->
+   	<LinearLayout 
+   	    android:id="@+id/linerlayout01"
+   	    android:layout_width="fill_parent"
+   	     android:layout_height="wrap_content">
+        
+   	  <!-- 小车 -->
+	  <LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1"
+	      android:orientation="vertical"
+	      >
+  	 <Button 
+	android:id="@+id/ChooseCar_Button01" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp"
+	android:layout_weight="1" 
+	android:background="@drawable/xiaoche_n"
+	 /> 
+	 <!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="小车"
+	     android:textSize="13dp"
+  	     />
+	
+  	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="C1/C2/C3"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+  	 
+  	 </LinearLayout>
+	
+	<!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 小车END -->
+	
+	<!-- 货车 -->
+	<LinearLayout 
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_weight="1"
+   	        android:orientation="vertical"
+   	        >
+	<Button 
+	android:id="@+id/ChooseCar_Button02" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/huoche_n" /> 
+	<!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="货车"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     
+  	     />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="A2/B2"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	
+	</LinearLayout>
+	
+	<!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 货车END -->
+	
+	<!-- 客车 -->
+	<LinearLayout 
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_weight="1"
+   	        android:orientation="vertical"
+   	        >
+	<Button 
+	android:id="@+id/ChooseCar_Button03" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/keche_n"
+	 /> 
+	 <!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="客车"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     
+  	     />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="A1/A3/B1"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	</LinearLayout>
+	
+	<!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 客车END -->
+	
+	<!-- 摩托车 -->
+	<LinearLayout 
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_weight="1"
+   	        android:orientation="vertical"
+   	        >
+	<Button 
+	android:id="@+id/ChooseCar_Button04" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/motuo"
+	 />     
+	 <!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="摩托车"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     
+  	     />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:text="D/E/F"
+	     android:background="#ffffff"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	 </LinearLayout>
+	 <!-- 摩托车END -->
+	 
+   	</LinearLayout>
+   	
+    <!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+   	<!-- 第一行结束 -->
+   	
+   	
+   	<!-- 另一行 -->
+   	<LinearLayout 
+   	    android:id="@+id/linearlayout02"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginTop="0dp" 
+   	     >
+	<!-- 客运 -->
+   	<LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1"
+	      android:orientation="vertical"
+	      >    
+    <Button 
+	android:id="@+id/ChooseCar_Button05" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/keyun" 
+	/> 
+	<!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="客运"
+	     android:textSize="13dp"
+	     
+  	     />
+	
+  	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="资格证"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+    </LinearLayout>
+	
+    <!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 客运END -->
+	
+	<!-- 货运 -->
+	<LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1"
+	      android:orientation="vertical"
+	      >
+	<Button 
+	android:id="@+id/ChooseCar_Button06" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/huoyun" 
+	/> 
+	<!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="货运"
+	     android:textSize="13dp"
+	     
+  	     />
+	
+  	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="资格证"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	</LinearLayout>
+	
+	<!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 货运END -->
+	
+	<!-- 危险品 -->
+	<LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1"
+	      android:orientation="vertical"
+	      >
+	<Button 
+	android:id="@+id/ChooseCar_Button07" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp"
+	 android:layout_weight="1" 
+	android:background="@drawable/weixian" 
+	/> 
+	<!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="危险品"
+	     android:textSize="13dp"
+	    
+  	     />
+	
+  	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="资格证"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	
+	</LinearLayout>
+	
+	<!-- 竖线 -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="70dp"
+	    android:background="@drawable/jiakao_dushed_line_vertical"
+	    />
+	<!-- 危险品END -->
+	
+	<!-- 教练证 -->
+	<LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1"
+	      android:orientation="vertical"
+	      >
+	<Button 
+	android:id="@+id/ChooseCar_Button08" 
+	android:layout_width="fill_parent"
+	android:layout_height="70dp" 
+	 android:layout_weight="1"
+	android:background="@drawable/jiaolian" 
+	/> 
+	<!-- 横线 -->
+   	<ImageView 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="@drawable/jiakao_dushed_line_heng"
+ 	    />
+	<TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="教练证"
+	     android:textSize="13dp"
+	     
+  	     />
+	
+  	 <TextView 
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:background="#ffffff"
+	     android:text="资格证"
+	     android:textSize="13dp"
+	     android:textColor="#cccccc"
+  	     />
+	</LinearLayout>
+	<!-- 教练END -->
+	
+   	</LinearLayout>
+   	
+   	<LinearLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="vertical"
+   	    android:layout_marginTop="60dp"
+   	    >
+   	    <TextView 
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="fill_parent"
+   	        android:gravity="center"
+   	        android:text="百纳驾考宝典，您最好的朋友"
+   	        android:textSize="18dp"
+   	        android:textColor="#d9d9d9"
+   	        />
+   	</LinearLayout>
+   	
+   	<!-- 空白占据剩余界面 -->
+   	<View
+   	    android:layout_width="match_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="1" 
+   	    />
+   	
+   	<!-- 完成 -->
+
+   	<LinearLayout
+   	    android:id="@+id/linearlayout03"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content" >
+
+   	    <Button
+   	        android:id="@+id/button01"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="fill_parent"
+   	        android:text="@string/carIsOk"
+   	        android:background="@drawable/button_down"
+   	        android:textSize="30dip" />
+   	</LinearLayout>
+</LinearLayout>

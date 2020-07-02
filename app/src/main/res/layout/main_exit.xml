@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+    >
+	<ImageView
+        android:id="@+id/exit_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerInParent="true"
+        android:src="@drawable/exit" />
+	
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/exit_bg"
+        android:layout_alignParentLeft="@+id/exit_bg"
+        android:layout_marginBottom="12dp"
+		android:layout_marginLeft="15dp"
+        android:background="@drawable/exit_1" />
+    
+ 
+
+    <ImageButton
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/exit_bg"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignRight="@+id/exit_bg"
+        
+        android:background="@drawable/exit_2" />
+    
+    
+    
+</RelativeLayout>

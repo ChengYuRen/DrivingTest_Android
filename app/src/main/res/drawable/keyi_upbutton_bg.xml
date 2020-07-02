@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/keyi_button_normal" 
+            android:state_pressed="false"
+            />
+        <item android:drawable="@drawable/keyi_button_press" 
+            android:state_pressed="true"
+            />
+    </selector>

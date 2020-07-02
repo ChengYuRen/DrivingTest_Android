@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+        <LinearLayout
+            android:id="@+id/dati"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            android:orientation="horizontal"
+            android:background="@drawable/bj">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+                     />
+
+                <TextView
+                    android:id="@+id/textview_biaoti_dati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                	android:layout_toRightOf="@+id/back"
+                    android:text="顺序练习"
+                    
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+                 <TextView
+			            android:id="@+id/textview_jiaojuan"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="8dp"
+			            android:layout_marginLeft="30dp"
+			            android:text="交卷"
+			            android:textColor="#FFFF00"
+			            android:textSize="20dp"
+			            android:visibility="gone"
+			            />
+                
+               <TextView 
+                    android:id="@+id/textview_shijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dip"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="90dp"
+                    android:textColor="#ff00ff"
+                    android:text="考试开始"
+                    android:visibility="gone"
+                    /> 
+               
+                   
+                
+
+        </LinearLayout>
+        
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/dati_down"
+            android:layout_below="@+id/dati"
+            android:scrollbars="vertical" >
+                
+            <LinearLayout 
+			    android:orientation="vertical"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_marginTop="5dp">
+  
+   				
+			    <LinearLayout 
+			        android:id="@+id/linear_timu"
+			        android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_marginTop="5dp">
+			        <ImageView
+			          android:id="@+id/imageview_timuleixing"  
+			        android:layout_marginTop="3dp"
+		           	android:layout_width="18dp"
+		            android:layout_height="18dp"
+		            android:layout_marginLeft="3.0dip"/>
+					<TextView  
+					    android:id="@+id/TextView_timu" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content" 
+					    android:textSize="18dip"
+					    android:textColor="@color/black"
+					    android:text="这个地方  放题目"
+					    />
+    			</LinearLayout>
+
+			    <ImageView
+			        android:id="@+id/ImageView_datiimage"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="3.0dip" 
+					android:layout_gravity="center"/>
+"
+    
+			  <LinearLayout 
+			        android:id="@+id/linear_a"
+			        android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_marginTop="10dp">
+			        <ImageView
+			            android:id="@+id/ImageView_a"
+			           	android:layout_width="60dp"
+			            android:layout_height="30dp"
+			            android:layout_marginLeft="3.0dip"/>
+					<TextView  
+					    android:id="@+id/TextView_a" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content" 
+					    android:textSize="20dip"
+					    android:textColor="@color/black"
+					    android:text="这里是  A   选项的内容"
+					    />
+			   </LinearLayout>
+   
+			  <LinearLayout 
+			        android:id="@+id/linear_b"
+			        android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_marginTop="10dp">
+			        <ImageView
+			            android:id="@+id/ImageView_b"
+			           	android:layout_width="60dp"
+			            android:layout_height="30dp"
+			            android:layout_marginLeft="3.0dip"/>
+					<TextView  
+					    android:id="@+id/TextView_b" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content" 
+					    android:textSize="20dip"
+					    android:textColor="@color/black"
+					    android:text="这里是  B   选项的内容"
+					    />
+			   </LinearLayout>
+   
+  
+  
+			  <LinearLayout 
+			        android:id="@+id/linear_c"
+			        android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_marginTop="10dp">
+			        <ImageView
+			            android:id="@+id/ImageView_c"
+			           	android:layout_width="60dp"
+			            android:layout_height="30dp"
+			            android:layout_marginLeft="3.0dip"/>
+					<TextView  
+					    android:id="@+id/TextView_c" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content" 
+					    android:textSize="20dip"
+					    android:textColor="@color/black"
+					    android:text="这里是  C   选项的内容"
+					    />
+			   </LinearLayout>
+   
+  
+  
+  
+			  <LinearLayout 
+			    android:id="@+id/linear_d"
+			    android:orientation="horizontal"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_marginTop="10dp"
+			    >
+			        <ImageView
+			            android:id="@+id/ImageView_d"
+			           	android:layout_width="60dp"
+			            android:layout_height="30dp"
+			            android:layout_marginLeft="3.0dip"/>
+				   <TextView  
+					    android:id="@+id/TextView_d" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content" 
+					    android:textSize="20dip"
+					    android:textColor="@color/black"
+					    android:text="这里是  D   选项的内容"
+					    />
+			   </LinearLayout>
+			   
+			  <ImageView
+			      android:id="@+id/ImageView_querendati"
+			      android:layout_width="220dp"
+			      android:layout_height="40dp"
+			      android:layout_gravity="center"
+			      android:layout_marginTop="20dp"
+			      android:background="@drawable/querendati"/>
+			  <TextView 
+				  android:id="@+id/textview_jiexitimu" 
+			   	  android:layout_width="fill_parent" 
+			      android:layout_height="wrap_content" 
+			      android:textColor="@color/navy"
+
+			      android:text="最佳解析 :"
+
+			      android:textSize="15dip"
+			      
+			      android:layout_marginTop="30dp"
+			    /> 
+			<LinearLayout
+	        	android:id="@+id/linear_daanxuanxiang"
+	         	android:orientation="horizontal"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+        		>
+				
+			    
+    		
+			    <TextView 
+			        android:layout_width="60dp" 
+			    	android:layout_height="wrap_content" 
+			    	android:textColor="@color/green"
+			     	android:textSize="18dip"
+			   		android:text="答案 :"
+			        /> 
+		        <TextView
+		            android:id="@+id/textview_daanxuanxiang" 
+		           	android:layout_width="match_parent"
+		    		android:layout_height="wrap_content" 
+		    		android:textColor="@color/red"
+		     		android:textSize="18dip"
+		    		android:text="B" />
+        	</LinearLayout> 
+        
+    		<LinearLayout
+			        android:id="@+id/linear_jiexi"
+			        android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+        			>
+			    <TextView 
+				        android:layout_width="60dp" 
+				    	android:layout_height="wrap_content" 
+				    	android:textColor="@color/green"
+				     	android:textSize="18dip"
+				    	android:text="解析 :"
+				        /> 
+			     <TextView 
+			          	android:id="@+id/textview_jiexineirong"
+			           	android:layout_width="fill_parent"
+					    android:layout_height="wrap_content" 
+					    android:textColor="@color/black"
+					     
+					    android:text="这个是解析    :" />
+			</LinearLayout> 
+	</LinearLayout>
+            
+    </ScrollView>
+        
+        
+        <!-- 以次为界   这是最下面的选项框 -->
+	<LinearLayout android:id="@+id/dati_down"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/dati_down"
+        android:layout_alignParentBottom="true">
+                
+    <LinearLayout
+            android:id="@+id/linear_shangyiti"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/pre"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"              
+                 android:gravity="center_horizontal"                 
+                android:src="@drawable/pre_bg"
+                android:textColor="#000000"
+                />
+           	<TextView 
+           	     android:id="@+id/pre_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一题"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/dati_shoucang"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/imageview_shoucang"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16sp"
+                android:src="@drawable/shoucang"
+                android:textColor="#000000"
+               	/>
+           	<TextView 
+           	     android:id="@+id/textview_shoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        
+     <LinearLayout
+            android:id="@+id/linear_xuexi"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/imageview_xuexi"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16sp"
+                android:src="@drawable/chakan"
+                android:textColor="#000000"
+                />
+           	<TextView 
+           	     android:id="@+id/textview_xuexi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学习模式"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_xiayiti"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/next"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16sp"
+                android:src="@drawable/next_bg"
+                android:textColor="#000000"
+                />
+           	<TextView 
+           	     android:id="@+id/next_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下一题"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+       <!-- 这里这个textview是  对我的错题  取消时的按钮  现在看看对不对 -->
+       <TextView 
+           	     android:id="@+id/textview_CTshanchu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="删除这道错题"
+                android:gravity="center"
+                android:textSize="35sp"/>
+        </LinearLayout>
+      
+    
+ </RelativeLayout>
+
+

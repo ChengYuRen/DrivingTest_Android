@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bjj"
+        >
+
+        <Button 
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/fanhui"
+            android:layout_weight="8"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/subject_three_lukaokoujue"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|left"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+   <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name01"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name02"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name03"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name04"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name05"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name06"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name07"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name08"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name09"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name10"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name11"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_koujue_name12"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

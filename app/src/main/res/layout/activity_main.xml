@@ -1,0 +1,190 @@
+<com.bn.driversystem_android.SlidingMenu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_menu"
+    xmlns:fyq="http://schemas.android.com/apk/res/com.bn.driversystem_android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    fyq:rightPadding="100dp"
+     >
+
+    <!-- 总界面 BEGIN -->
+  <LinearLayout
+      	
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+      <include layout="@layout/layout_menu" />
+
+   <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <!-- 标题 -->
+    <LinearLayout android:id="@+id/main_tab_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/bj"
+        android:layout_alignParentTop="true"
+        >
+        
+        <Button
+        android:id="@+id/title_bar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3.0dip"
+        android:layout_marginRight="3.0dip"
+        android:layout_marginTop="3.0dip"
+        android:gravity="center"
+        android:background="@drawable/ic_top_bar_category"
+        android:onClick="toggleMenu"
+        
+         />
+        
+        
+        
+        <TextView android:id="@+id/main_tab_banner_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="科目一:理论考试"
+            android:textSize="20dip"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    
+    
+    <!-- 下方的东西 -->
+    <LinearLayout android:id="@+id/main_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/main_button_bg"
+       android:layout_alignParentBottom="true"
+        >
+        <LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_kemu1"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuyi"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16dip"
+                android:src="@drawable/ico_img1_p"
+                android:textColor="#000000"/>
+           	<TextView 
+           	     android:id="@+id/kemu1_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="科目一"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+ 		<LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_kemu2"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuer"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16dip"
+                android:src="@drawable/ico_img2"
+                android:textColor="#000000"/>
+           	<TextView 
+           	     android:id="@+id/kemu2_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="科目二/三"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        
+ 		<LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_kemu4"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemusi"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16dip"
+                android:src="@drawable/ico_img3"
+                android:textColor="#000000"/>
+           	<TextView 
+           	     android:id="@+id/kemu4_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="科目四"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+      
+  		<LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_cheyouquan"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/cheyouquan"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16dip"
+                android:src="@drawable/ico_img5"
+                android:textColor="#000000"/>
+           	<TextView 
+           	     android:id="@+id/cheyouquan_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车友圈"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+ 
+    	</LinearLayout> <!-- 下边的东西 END -->
+   		
+    	
+	<!-- 排版 --> <LinearLayout android:id="@+id/main_tab_container"
+       android:layout_above="@id/main_tab"
+        android:layout_below="@id/main_tab_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF">
+  		
+   	 </LinearLayout>
+
+	</RelativeLayout>  <!-- 标题栏上方END -->
+	
+    </LinearLayout> <!-- 总界面 END -->
+ 	
+</com.bn.driversystem_android.SlidingMenu>

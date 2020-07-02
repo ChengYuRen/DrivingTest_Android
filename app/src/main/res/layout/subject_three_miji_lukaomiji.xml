@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bjj"
+        >
+
+        <Button 
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/fanhui"
+            android:layout_weight="8"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/subject_three_lukaomiji"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|left"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+   <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name01"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name02"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name03"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name04"
+        />
+    
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name05"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name06"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name07"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name08"
+        />
+    <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namesc_name09"
+        />
+
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namezxxs_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namezxxs_name02"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namezxxs_name03"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namezxxs_name04"
+        />
+     
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namebgcd_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namebgcd_name02"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namebgcd_name03"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namebgcd_name04"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namebgcd_name05"
+        />
+     
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name02"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name03"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name04"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name05"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name06"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametglk_name07"
+        />
+     
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametgrxd_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametgrxd_name02"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_nametgrxd_name03"
+        />
+     
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namehcch_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namehcch_name02"
+        />
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namehcch_name03"
+        />
+      
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namedt_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namedt_name02"
+        />
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namedt_name03"
+        />
+     
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name01"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="12dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name02"
+        />
+     <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name03"
+        />
+      <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name04"
+        />
+       <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name05"
+        />
+        <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name06"
+        />
+         <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name07"
+        />
+          <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name08"
+        />
+           <TextView 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject_three_lukaomiji_namekbtc_name09"
+        />
+      
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

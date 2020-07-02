@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:orientation="vertical"  
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent"  
+  android:background="@drawable/denglu">  
+  <!-- padding 内边距   layout_margin 外边距   
+                  android:layout_alignParentTop 布局的位置是否处于顶部 -->
+                  
+    <LinearLayout 
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_marginTop="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.90"
+            android:background="@drawable/fanhui" />
+
+    </LinearLayout>
+
+    <!-- 改这里 -->
+    <RelativeLayout
+        android:id="@+id/login_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#00000000"
+        android:padding="15dip" >
+
+        <TextView
+            android:id="@+id/login_user_input"
+            style="@style/normalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="" />
+
+
+        <EditText
+            android:id="@+id/username_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_user_input"
+            android:layout_marginTop="142dp"
+            android:background="#00000000"
+            android:hint="@string/login_username_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_edit"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="32dp"
+            android:background="#00000000"
+            android:inputType="textPassword"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/password_edit"
+            android:layout_below="@id/password_edit"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/denglu_button_bg"
+             />
+
+        <TextView  android:id="@+id/register_link"  
+             android:text="@string/login_register_link"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_marginLeft="0dp"  
+             android:layout_marginTop="200dp"
+             android:textColor="#ffffff"  
+             android:textColorLink="#FF0066CC"  
+          />
+        
+        <TextView  android:id="@+id/register_mibao"  
+             android:text="@string/login_register_mibao"  
+             android:layout_width="wrap_content"  
+             android:layout_height="wrap_content"  
+             android:layout_marginLeft="190dp"  
+             android:layout_marginTop="200dp"
+             android:textColor="#ffffff"  
+             android:textColorLink="#FF0066CC"  
+          />
+    </RelativeLayout>
+  
+  
+  
+</LinearLayout>  

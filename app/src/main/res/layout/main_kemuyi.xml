@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/kemuyi_bg">
+
+        <LinearLayout
+            android:id="@+id/kemuyi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" 
+            
+            android:background="#FFFFE0">
+
+            <TextView
+                android:id="@+id/keyikaogui"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="科一考规"
+                android:textSize="20sp"
+                android:textColor="@color/darkcyan"
+                android:gravity="center_horizontal"
+                android:background="@drawable/keyi_upbutton_bg" />
+        	
+        	<TextView
+                android:id="@+id/jiaotongbiaozhi"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="交通标志"
+                android:textSize="20sp"
+                android:textColor="@color/darkcyan"
+                android:gravity="center_horizontal"
+                android:background="@drawable/keyi_upbutton_bg" />
+        	
+        	 
+        	<TextView
+                android:id="@+id/jiqiaofagui"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="科一秘籍"
+                android:textSize="20sp"
+                android:textColor="@color/darkcyan"
+                android:gravity="center_horizontal"
+                android:background="@drawable/keyi_upbutton_bg" />
+
+        </LinearLayout>
+
+   <RelativeLayout 
+       android:id="@+id/kemuyi_button"
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       >
+
+        <LinearLayout
+            android:id="@+id/kemuyi_shunxuzhangjie"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/kemuyi_shunxulianxi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+               
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/kemuyi_shunxu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"  
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/shunxu_bg"
+                    android:textColor="#000000"
+                     />
+
+                <TextView
+                    android:id="@+id/shunxu_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" 
+                    android:text="顺序练习"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kemuyi_zhangjielianxi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="70dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/kemuyi_zhangjie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/zhangjie_bg"
+                    android:textColor="#000000"
+                     />
+
+                <TextView
+                    android:id="@+id/zhangjie_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"  
+                    android:text="章节练习"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+        
+         <LinearLayout android:id="@+id/kemuyi_monikaoshi"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="155dp"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical">
+           <ImageView 
+           	    	android:id="@+id/kemuyi_moni"
+           	    	android:layout_weight="1"
+                	android:layout_width="160dp"
+                	android:layout_height="160dp"
+                	android:gravity="center_horizontal"
+                 	
+                	android:src="@drawable/moni_bg"
+                	android:textColor="#000000"
+                	/>
+           		<TextView 
+           	     	android:id="@+id/zhangjie_textview"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:text="模拟考试"
+                	android:textColor="#000000"
+                	android:textSize="13sp"
+                	android:layout_gravity="center_horizontal"/>
+           
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kemuyi_fenleisuiji"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="260dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/kemuyi_fenleilianxi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/kemuyi_fenlei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/fenlei_bg"
+                    android:textColor="#000000"
+                     />
+
+                <TextView
+                    android:id="@+id/fenlei_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="分类练习"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kemuyi_suijilianxi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="70dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/kemuyi_suiji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/suiji_bg"
+                    android:textColor="#000000"
+                     />
+
+                <TextView
+                    android:id="@+id/suiji_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="随机练习"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    
+        
+   </RelativeLayout>
+    
+    
+    
+    
+    
+    
+    
+    <LinearLayout android:id="@+id/kemuyi_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFA"
+        android:layout_alignParentBottom="true">
+        
+    <LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_wodeshoucang"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuyi_wodeshoucang"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"              
+                 android:gravity="center_horizontal"                 
+                android:src="@drawable/main_keyi1"
+                android:textColor="#000000"
+                android:background="@drawable/kemuyi_button_bg"/>
+           	<TextView 
+           	     android:id="@+id/wodeshoucang_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的收藏"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_shujutongji"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuyi_shujutongji"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 
+                android:src="@drawable/main_keyi2"
+                android:textColor="#000000"
+                android:background="@drawable/kemuyi_button_bg"/>
+           	<TextView 
+           	     android:id="@+id/shujutongji_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数据统计"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        
+     <LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_wodecuoti"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuyi_wodecuoti"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16sp"
+                android:src="@drawable/main_keyi3"
+                android:textColor="#000000"
+                android:background="@drawable/kemuyi_button_bg"/>
+           	<TextView 
+           	     android:id="@+id/wodecuoti_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的错题"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/kemu1_xiamianLinear_kaoshijilu"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+           	android:orientation="vertical" >
+           	<ImageView 
+           	    android:id="@+id/kemuyi_kaoshijilu"
+           	    android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center_horizontal"
+                 android:textSize="16sp"
+                android:src="@drawable/main_keyi4"
+                android:textColor="#000000"
+                android:background="@drawable/kemuyi_button_bg"/>
+           	<TextView 
+           	     android:id="@+id/kaoshijilu_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="考试记录"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+       
+        
+    </LinearLayout>
+     <LinearLayout android:id="@+id/kemuyi_tab_container"
+        android:layout_above="@id/kemuyi"
+        android:layout_below="@id/kemuyi_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </LinearLayout>
+
+     
+</RelativeLayout>
+
+

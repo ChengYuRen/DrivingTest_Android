@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<!-- 科目二科目三 -->
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal" >
+
+       <Button
+           android:id="@+id/buttonsubjectTwo"
+           android:layout_width="fill_parent"
+           android:layout_height="40dp"
+           android:background="@drawable/abc_cab_background_top_holo_light"
+           android:text="科目二"
+           android:layout_weight="1"
+           />
+       <ImageView 
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:background="@drawable/jiakao_line_shu"
+           />
+       
+        <Button
+           android:layout_marginLeft="1dp"
+           android:id="@+id/buttonsubjectThree"
+           android:layout_width="fill_parent"
+           android:layout_height="40dp"
+           
+           android:background="@color/white"
+           android:text="科目三"
+           android:layout_weight="1"
+           />
+   </LinearLayout>
+    
+	<!--  android:gravity="center_vertical" 居左 -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">    
+	   <ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="3dp"
+          android:background="@drawable/ic_shelf_category_divider"
+          />  
+    <Button
+        android:id="@+id/buttonkaoguitwo"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kemuer_button"
+        android:drawableLeft="@drawable/keersan_kaogui"
+        android:gravity="center_vertical"
+        android:text="科二考规"
+        android:textColor="#000000"
+        android:textSize="16sp" >
+
+  </Button>
+  </LinearLayout>
+  <!--android:background 设置按钮按下时的变化  ok是一个心形图片  -->
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"> 
+	    <ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:background="@drawable/jiakao_huise_line_heng"
+          />   
+	<Button
+	    android:id="@+id/buttonmijitwo"
+	    android:layout_width="1000dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="1sp"
+	    android:background="@drawable/kemuer_button"
+	    android:drawableLeft="@drawable/keersan_miji"
+	    android:gravity="center_vertical"
+	    android:text="通关秘籍"
+	    android:textColor="#000000"
+	    android:textSize="16sp" />
+	<ImageView 
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:background="@drawable/jiakao_huise_line_heng"
+          />  
+	</LinearLayout>
+  
+	<TextView 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/selectSubjectTwoVideo"
+          android:textSize="15sp"
+     />
+	
+	<ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     
+	 <LinearLayout 
+	     android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="vertical"
+	     >
+	<!-- 视频查看 01-->
+ 	 <LinearLayout 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal"
+     	 >
+
+ 	   <Button
+ 	       android:id="@+id/buttondaoCheRuKu"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/daoche"
+ 	       android:text="@string/daoCheRuKu"
+ 	       android:textColor="#000000" />
+
+ 	   
+ 	   
+       <Button 
+           android:layout_marginLeft="1sp"
+           android:id="@+id/button_sluxingshi"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/sluxingshi"
+          android:text="S路行驶"
+          />
+  </LinearLayout>
+  <!-- 02 -->
+       
+       <!-- 03 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      <Button
+          
+          android:id="@+id/button_cefangtingche"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/cefangtingche"
+ 	       android:text="侧方停车"
+ 	       android:textColor="#000000" />
+
+       <Button 
+           android:layout_marginLeft="1sp"
+          android:id="@+id/button_zhijiaozhuanwan" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/subject_two"
+          android:drawableTop="@drawable/zhijiaowan"
+          android:text="直角转弯"
+          />
+       </LinearLayout>
+       
+       <!-- 04 -->
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      
+
+  
+  </LinearLayout>
+  
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="1sp"
+      >
+      
+	<Button
+          
+          android:id="@+id/buttonpoDaoStopAndBegin"
+ 	       android:layout_width="fill_parent"
+ 	       android:layout_height="wrap_content"
+ 	       android:layout_weight="1"
+ 	       android:background="@drawable/subject_two"
+ 	       android:drawableTop="@drawable/podao"
+ 	       android:text="@string/poDaoStopAndBegin"
+ 	       android:textColor="#000000" />
+      <Button 
+           android:layout_marginLeft="1sp"
+         
+          android:layout_width="fill_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          
+         
+          
+          />
+       
+  </LinearLayout>
+  
+  </LinearLayout>
+  </ScrollView>
+</LinearLayout>
+
+</ScrollView>

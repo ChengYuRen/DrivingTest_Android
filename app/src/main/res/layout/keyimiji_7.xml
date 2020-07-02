@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+<LinearLayout 
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+        <RelativeLayout
+            android:id="@+id/keyimiji_7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            
+            android:background="@drawable/bj">
+	
+            <TextView
+                android:id="@+id/talker_My_logintoast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/fanhui_b7"               
+                android:text="安全距离题巧记"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/fanhui_b7"
+                    android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+                     />
+
+        </RelativeLayout>
+	
+  	<TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_7_1"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     
+     
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3sp"
+        android:textStyle="bold"
+        android:text="@string/keyimiji_7_7"
+        />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_9"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         />
+      <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyimiji_7_12"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+         >
+     
+    </TextView>
+    
+ </LinearLayout>
+
+</ScrollView>
+

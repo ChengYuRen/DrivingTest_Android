@@ -1,0 +1,491 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:1-178:12
+	package
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+	android:targetSdkVersion
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:15-43
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:6:5-46
+		INJECTED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:7:5-152:19
+	android:label
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:10:9-38
+	android:allowBackup
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:13:9-40
+	android:networkSecurityConfig
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:12:9-69
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:8:9-59
+activity#com.bn.driversystem_android.SplashActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:14:9-26:20
+	android:screenOrientation
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:17:13-45
+	android:launchMode
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:18:13-44
+	android:configChanges
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:16:13-51
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:20:13-71
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:15:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.bn.driversystem_android.GuideActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:27:9-31:74
+	android:screenOrientation
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:30:13-49
+	android:configChanges
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:29:13-51
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:31:13-71
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:28:13-69
+activity#com.bn.driversystem_android.MainActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:32:9-86
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:32:19-74
+activity#com.bn.driversystem_android.KeMuyiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:33:9-121
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:33:77-109
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:33:19-76
+activity#com.bn.driversystem_android.KeMuerActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:34:9-121
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:34:77-109
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:34:19-76
+activity#com.bn.driversystem_android.KeMusiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:35:9-121
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:35:77-109
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:35:19-76
+activity#com.bn.driversystem_android.CheYouQuanActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:37:9-125
+	android:theme
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:37:81-113
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:37:19-80
+activity#com.bn.driversystem_android.SlidingMenu
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:39:9-85
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:39:19-73
+activity#com.bn.utils.L
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:42:9-60
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:42:19-48
+activity#com.bn.utils.ScreenUtils
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:43:9-70
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:43:19-58
+activity#com.bn.utils.Exit
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:44:9-63
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:44:19-51
+activity#com.bn.Begin.ChooseCar
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:47:9-68
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:47:19-56
+activity#com.bn.Begin.ChooseSchool
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:48:9-71
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:48:19-59
+service#com.baidu.location.f
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:49:9-57:19
+	android:process
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:52:13-38
+	android:enabled
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:51:13-35
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:50:13-48
+intent-filter#action:name:com.baidu.location.service_v2.2
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:53:13-56:29
+action#com.baidu.location.service_v2.2
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:54:17-55:26
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:54:25-71
+activity#com.bn.Begin.Login_Begin_FromCheYouQuan
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:58:9-85
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:58:19-73
+activity#com.bn.Begin.Login_Begin_PerSon
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:59:10-78
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:59:20-66
+activity#com.bn.Begin.Login_ZhuCe
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:60:9-70
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:60:19-58
+activity#com.bn.Begin.Login_ZhaoHuiMiMa
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:62:9-76
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:62:19-64
+activity#com.bn.Begin.ChooseCar_Begin
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:63:9-74
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:63:19-62
+activity#com.bn.Begin.ChooseSchool_Begin
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:64:9-77
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:64:19-65
+activity#com.bn.Begin.GuanYu_WoMen
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:65:9-71
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:65:19-59
+activity#com.bn.Begin.UpDate_NiCheng
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:66:9-73
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:66:19-61
+activity#com.bn.Begin.UpDate_Phone
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:67:9-71
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:67:19-59
+activity#com.bn.Begin.SelectCity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:68:9-69
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:68:19-57
+activity#com.bn.Begin.PerSon_Home
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:69:9-70
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:69:19-58
+activity#com.bn.picture.Picture_TouXiang
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:71:9-77
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:71:19-65
+activity#com.example.sortlistview.CityList
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:73:9-74:73
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:74:13-61
+activity#com.bn.School.sortlistview.SchoolList
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:76:9-83
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:76:19-71
+activity#com.bn.driversystem_android.kemuyi.KykgActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:78:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:78:19-81
+activity#com.bn.driversystem_android.kemuyi.JtbzActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:79:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:79:19-81
+activity#com.bn.driversystem_android.kemuyi.JqfgActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:80:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:80:19-81
+activity#com.bn.driversystem_android.kemuyi.shoucangActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:82:9-97
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:82:19-85
+activity#com.bn.driversystem_android.kemuyi.shujuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:83:9-94
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:83:19-82
+activity#com.bn.driversystem_android.kemuyi.cuotiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:84:9-94
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:84:19-82
+activity#com.bn.driversystem_android.kemuyi.kaoshiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:85:9-95
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:85:19-83
+activity#com.bn.driversystem_android.kemuyi.shunxuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:87:9-95
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:87:19-83
+activity#com.bn.driversystem_android.kemuyi.fenleiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:88:9-95
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:88:19-83
+activity#com.bn.driversystem_android.kemuyi.zhangjieXUANZE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:89:9-95
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:89:19-83
+activity#com.bn.driversystem_android.kemuyi.duoxiangdatiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:90:9-101
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:90:19-89
+activity#com.bn.driversystem_android.kemuyi.KaoShiJieGuo_KeYi
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:91:9-98
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:91:19-86
+activity#com.bn.driversystem_android.kemuyi.kaoshiBHYduo
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:93:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:93:19-81
+activity#com.bn.driversystem_android.kemuyi.kaoshijiluActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:94:9-99
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:94:19-87
+activity#com.bn.wenzimiaoshu.miji_1Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:99:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:99:19-68
+activity#com.bn.wenzimiaoshu.miji_2Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:100:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:100:19-68
+activity#com.bn.wenzimiaoshu.miji_3Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:101:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:101:19-68
+activity#com.bn.wenzimiaoshu.miji_4Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:102:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:102:19-68
+activity#com.bn.wenzimiaoshu.miji_5Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:103:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:103:19-68
+activity#com.bn.wenzimiaoshu.miji_6Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:104:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:104:19-68
+activity#com.bn.wenzimiaoshu.miji_7Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:105:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:105:19-68
+activity#com.bn.wenzimiaoshu.miji_8Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:106:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:106:19-68
+activity#com.bn.wenzimiaoshu.miji_9Activity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:107:9-80
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:107:19-68
+activity#com.bn.driversystem_android.kemusi.KskgActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:109:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:109:19-81
+activity#com.bn.driversystem_android.kemusi.KsmjActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:110:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:110:19-81
+activity#com.bn.driversystem_android.kemusi.kesishoucangActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:111:9-101
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:111:19-89
+activity#com.bn.driversystem_android.kemusi.kesishujuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:112:9-98
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:112:19-86
+activity#com.bn.driversystem_android.kemusi.kesicuotiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:113:9-98
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:113:19-86
+activity#com.bn.driversystem_android.kemusi.kesikaoshiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:114:9-99
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:114:19-87
+activity#com.bn.driversystem_android.kemusi.lianxiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:115:9-95
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:115:19-83
+activity#com.bn.driversystem_android.kemuer.KeMuErKaoGui
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:119:9-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:119:19-81
+activity#com.bn.driversystem_android.kemuer.KeMuErMiJi
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:120:9-91
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:120:19-79
+activity#com.bn.driversystem_android.kemuer.KeMuSanKaoGui
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:121:9-94
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:121:19-82
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_KaoQianZhunBei
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:123:9-91
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:123:19-79
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_PoDao
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:124:8-81
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:124:18-69
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_DaoChe
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:125:8-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:125:18-70
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_CeFang
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:126:8-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:126:18-70
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_QuXian
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:127:8-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:127:18-70
+activity#com.bn.wenzimiaoshu.KeMuErMiJi_ZhiXian
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:128:8-83
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:128:18-71
+activity#com.bn.driversystem_android.kemuer.KeMuSanMiJi
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:130:8-91
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:130:18-79
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_KouFen
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:131:7-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:131:17-70
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_LuKaoKouJue
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:132:8-88
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:132:18-76
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_QiBu
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:133:8-81
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:133:18-69
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_JiaoCha
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:134:8-84
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:134:18-72
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_DiaoTou
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:135:8-84
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:135:18-72
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_YeKao
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:136:8-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:136:18-70
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_WuZhao
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:137:8-83
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:137:18-71
+activity#com.bn.wenzimiaoshu.KeMuSanMiJi_LuKaoMiJi
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:138:8-86
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:138:18-74
+activity#com.bn.driversystem_android.cheyouquan.keyijiaoliuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:140:9-104
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:140:19-92
+activity#com.bn.driversystem_android.cheyouquan.keerjiaoliuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:141:8-103
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:141:18-91
+activity#com.bn.driversystem_android.cheyouquan.kesanjiaoliuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:142:8-104
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:142:18-92
+activity#com.bn.driversystem_android.cheyouquan.kesijiaoliuActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:143:8-103
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:143:18-91
+activity#com.bn.driversystem_android.cheyouquan.jiaxiaozhaoshengActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:144:8-108
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:144:18-96
+activity#com.bn.driversystem_android.cheyouquan.cheliangjiaoyiActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:145:8-106
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:145:18-94
+activity#com.bn.driversystem_android.cheyouquan.keyireplyActivity
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:146:8-101
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:146:18-89
+activity#com.bn.driversystem_android.cheyouquan.fabutiezi
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:147:8-93
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:147:18-81
+activity#com.bn.shuju_tongji.ShuJu_TongJi_Main
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:149:8-82
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:149:18-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:154:6-155:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:154:23-79
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:156:5-157:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:156:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:158:5-159:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:158:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:160:5-161:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:160:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:162:5-163:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:162:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:164:5-165:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:164:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:166:5-167:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:166:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:168:5-67
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:168:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:169:5-170:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:169:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:171:5-172:23
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:171:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:173:5-66
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:173:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:174:5-68
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:174:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:175:5-73
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:175:22-70
+uses-permission#android.permission.CAMERA
+ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:177:6-65
+	android:name
+		ADDED from E:\Graduation_Project\Source_Code\DriverSystem_AndroidStudio\app\src\main\AndroidManifest.xml:177:23-63

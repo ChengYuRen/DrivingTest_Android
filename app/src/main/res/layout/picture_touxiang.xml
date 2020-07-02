@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F3F1DA"
+    android:orientation="vertical" >
+	<!-- 无用的界面 -->
+    <!-- title -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/title_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_bar_txt"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- image switch -->
+
+    <RelativeLayout
+        android:id="@+id/switch_face_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dip"
+        android:background="@drawable/item_edit_bg"
+        android:clickable="true" 
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="42dip"
+            android:layout_height="42dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/mini_avatar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@id/face"
+            android:layout_gravity="center"
+            android:text="设置头像"
+            android:textColor="@android:color/black" /> 
+    </RelativeLayout>
+
+</LinearLayout>

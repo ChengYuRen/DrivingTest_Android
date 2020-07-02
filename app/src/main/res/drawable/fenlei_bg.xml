@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/fenlei" 
+            android:state_pressed="false"
+            />
+        <item android:drawable="@drawable/fenlei_p" 
+            android:state_pressed="true"
+            />
+    </selector>

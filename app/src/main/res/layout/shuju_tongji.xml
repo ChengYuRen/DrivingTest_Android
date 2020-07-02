@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+            android:layout_height="40dp" 
+            android:background="@drawable/bj"
+        >
+
+        <ImageView
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="40dip"
+                    android:layout_height="30dip"
+                    android:layout_marginTop="5dp"
+                     android:gravity="bottom"
+                    android:src="@drawable/fanhui"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                	android:layout_toRightOf="@+id/button_subject_two_kaogui_title"
+                    android:text="数据统计"
+                    
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/layout_piechart"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="fill_parent"
+        android:background="@drawable/tongji"
+        android:orientation="horizontal" >
+
+        <com.bn.shuju_tongji.PieChartView
+            android:id="@+id/parbar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/text_item_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/parbar_view"
+            android:background="@drawable/text_bg"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:visibility="gone" />
+        
+        <TextView 
+            android:id="@+id/shuju_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/parbar_view"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="fdsafsdfas"
+            
+            />
+         <TextView
+           android:id="@+id/textview_qkTJ"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:background="#ff0000"
+           android:gravity="center"
+           android:text="清空所有统计"
+           android:textSize="30dp" />
+    </RelativeLayout>
+    <!--
+        layout_borderWidth="3.0dip"
+        layout_centercircle_radius="100.0dip"
+    -->
+
+</LinearLayout>

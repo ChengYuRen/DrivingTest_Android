@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bj"
+        >
+
+        <Button 
+            android:id="@+id/button_subject_two_kaogui_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/fanhui"
+            android:layout_marginTop="8dp"
+            android:layout_weight="8"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="科二秘籍"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|left"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <!-- 其前边图片和颜色均可以修改 -->
+    <Button 
+        android:layout_marginTop="5dp" 
+        android:id="@+id/buttonsubject_two_kaoqianzhunbei"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/subject_two"
+        android:text="@string/subject_two_miji_kaoqianzhunbei"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+    <Button 
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonsubject_two_daocheruku"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_button_selector"
+        android:text="@string/subject_two_miji_daocheruku"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+     <Button 
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonsubject_two_podaotingcheheqibu"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/subject_two"
+        android:text="@string/subject_two_miji_dingdiantingcheheqibu"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+     <Button
+        android:layout_marginTop="5dp" 
+        android:id="@+id/buttonsubject_two_cefangtingche"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_button_selector"
+        android:text="@string/subject_two_miji_cefangtingche"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+     <Button
+         android:layout_marginTop="5dp" 
+        android:id="@+id/buttonsubject_two_quxianxingshi"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/subject_two"
+        android:text="@string/subject_two_miji_quxianxingshi"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+     <Button 
+         android:layout_marginTop="5dp"
+        android:id="@+id/buttonsubject_two_zhijiaozhuanwan"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_button_selector"
+        android:text="@string/subject_two_miji_zhijiaozhuanwan"
+        android:drawableLeft="@drawable/ok"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        />
+     
+     
+    
+    
+    </LinearLayout>
+
+</LinearLayout>
